@@ -1,0 +1,21 @@
+@mixin home--landscape {
+  @include landscape {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+
+      .article {
+        flex-basis: 100%;
+      }
+
+      .articles,
+      .tags {
+        flex-basis: calc(50% - #{$lem * 4});
+      }
+
+      .tags {
+        margin-right: 0;
+      }
+    }
+  }
+}

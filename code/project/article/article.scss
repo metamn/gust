@@ -1,1 +1,17 @@
-@mixin article {}
+@mixin article {
+  min-height: calc(100vh - #{$lem * 4});
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &__title {
+    display: none;
+    @include text-style(title);
+  }
+
+  &__content {
+    @include text-style(body-text);
+  }
+}

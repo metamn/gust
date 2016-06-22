@@ -39,6 +39,35 @@
           "name": "max-width",
           "value": "25em"
         }
+      ],
+      "responsive": [
+        {
+          "breakpoint": "tablet",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-1"
+            }
+          ]
+        },
+        {
+          "breakpoint": "laptop",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-2"
+            }
+          ]
+        },
+        {
+          "breakpoint": "desktop",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-3"
+            }
+          ]
+        }
       ]
     },
     {

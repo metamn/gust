@@ -16,15 +16,6 @@ html {
     @include typography-reset;
     @include text-style(default);
 
-    @include colors(white-on-black);
-
-    .container {
-      @include colors(black-on-white);
-      margin: $lem;
-      padding: $lem;
-      min-height: 100vh;
-    }
-
     .footer {
       @include footer;
     }
