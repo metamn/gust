@@ -76,7 +76,7 @@ var generateFile = function(archive) {
   var content = '';
 
   content += "{% set title='" + archive.category + "' %}"
-  content += "{% extends '../../../framework/templates/default/default.html.swig' %}{% block content %}";
+  content += "{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}";
   content += "<section class='tag'>";
   content += "<h3 class='tag__title'>" + archive.category + "</h3>";
 

@@ -41,7 +41,11 @@ var _swig = function(source, dest, config, grabJSON) {
         cache: false,
         locals: {
           // Load site-wide JSON settings
-          site: require(config)
+          site: require(config),
+          // Load articles.json
+          articles: require('../../../' + paths.articles_json),
+          // Load archives.json
+          archives: require('../../../' + paths.archives_json)
         }
       }
     }))
