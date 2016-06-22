@@ -104,11 +104,14 @@ var generateFolder = function(archive, archive_folder) {
 
   mkdirp(folder, function (err) {
     if (err) throw err;
-    console.log(folder + ' created.');
+    //console.log(folder + ' created.');
   });
 
   var content = generateFile(archive);
-  fs.writeFile(fileName, content);
+  fs.writeFile(fileName, content, (err) => {
+    if (err) throw err;
+    //console.log(fileName + ' created.');
+  });
 }
 
 

@@ -90,5 +90,5 @@ module.exports = {
   archives_json: sourceCode + '/archives.json',
 
   // Where to put archives
-  archives_folder: sourceCode + '/pages/archive/'
+  archives_folder: sourceCode + '/pages/about/'
 }

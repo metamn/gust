@@ -1,0 +1,1 @@
+{% set title='LSD' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<section class='tag'><h3 class='tag__title'>LSD</h3><article><h3 class='article__title'>LSD</h3><a class='link' href='{{ site.url }}lsd' title='LSD'>LSD</a><date class='article__date'>{{ '2010-11-21' | date('F Y') }}</date></article></section>{% endblock %}
