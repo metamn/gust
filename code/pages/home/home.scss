@@ -10,6 +10,10 @@ html {
       .articles {
         @include articles;
       }
+
+      .tags {
+        @include tags;
+      }
     }
   }
 }
