@@ -1,0 +1,24 @@
+{
+  "url": "/",
+  "urlx": "http://metamn.io/gust/",
+  "title": "Gust",
+  "images": "assets/images/",
+  "scripts": "assets/scripts/",
+  "styles": "assets/styles/",
+  "javascripts": {
+    "header": [
+      {
+       "file": "https://use.typekit.net/syb1owt.js",
+       "type": "external"
+      },
+      {
+        "file": "vendors.js"
+      }
+    ],
+    "footer": [
+      {
+        "file": "site.footer.min.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "text_styles": [
+    {
+      "name": "Default",
+      "description": "The basic settings for a text.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-regular"
+        },
+        {
+          "name": "scale",
+          "value": "default"
+        },
+        {
+          "name": "colors",
+          "value": "black-on-white"
+        }
+      ],
+      "properties": [
+        {
+          "name": "letter-spacing",
+          "value": "1.1px"
+        }
+      ]
+    },
+    {
+      "name": "Body text",
+      "description": "Settings for text blocks.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "p"
+        }
+      ],
+      "properties": [
+        {
+          "name": "max-width",
+          "value": "25em"
+        }
+      ]
+    },
+    {
+      "name": "Metamn",
+      "description": "Settings for the Metamn logo.",
+      "based_on": "Silkscreen",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "silkscreen-regular"
+        },
+        {
+          "name": "scale",
+          "value": "large-1"
+        }
+      ]
+    },
+    {
+      "name": "Title",
+      "description": "Title",
+      "based_on": "Nimbus Sans Bold",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-bold"
+        },
+        {
+          "name": "scale",
+          "value": "large-4"
+        },
+        {
+          "name": "word-wrap",
+          "value": ""
+        }
+      ],
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "mixins": [
+            {
+              "name": "scale",
+              "value": "large-3"
+            }
+          ]
+        }
+      ],
+      "properties": [
+        {
+          "name": "max-width",
+          "value": "35em"
+        }
+      ]
+    },
+    {
+      "name": "Date",
+      "description": "Sate",
+      "based_on": "Nimbus Sans Black",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        }
+      ]
+    }
+  ]
+}
