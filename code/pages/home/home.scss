@@ -7,10 +7,8 @@
 html {
   &.home {
     body {
-      
-
-      .footer {
-        @include footer;
+      .articles {
+        @include articles;
       }
     }
   }

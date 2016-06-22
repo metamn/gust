@@ -3,5 +3,5 @@
 <div class="container">
   {% block content %}{% endblock %}
 </div>
-
+{% include '../../footer/footer.html.swig' %}
 {% include '../footer/footer.html.swig' %}
