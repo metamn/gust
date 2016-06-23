@@ -1,0 +1,5 @@
+@mixin link-with-arrow-triangle {
+  .arrow-with-triangle {
+    @include arrow-with-triangle;
+  }
+}

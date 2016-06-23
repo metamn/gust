@@ -3,6 +3,7 @@
 
   {% set article = articles[2] %}
   {% include '../../project/article/article.html.swig' %}
+  {% include '../../project/prevnext/prevnext.html.swig' %}
 
   {% include '../../project/articles/articles.html.swig' %}
   {% include '../../project/tags/tags.html.swig' %}

@@ -9,6 +9,14 @@ html {
     body {
       @include home--landscape;
 
+      .article {
+        @include article;
+      }
+
+      .prevnext {
+        @include prevnext;
+      }
+      
       .articles {
         @include articles;
       }
@@ -17,9 +25,6 @@ html {
         @include tags;
       }
 
-      .article {
-        @include article;
-      }
 
       .article,
       .articles,

@@ -4,8 +4,14 @@
       display: flex;
       flex-wrap: wrap;
 
-      .article {
+      .article,
+      .prevnext {
         flex-basis: 100%;
+      }
+
+      .prevnext {
+        position: relative;
+        top: -$lem * 3;
       }
 
       .articles,

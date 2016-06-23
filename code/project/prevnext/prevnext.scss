@@ -1,0 +1,9 @@
+@mixin prevnext {
+  display: flex;
+  justify-content: space-between;
+
+  .link-with-arrow-triangle {
+    @include link-with-arrow-triangle;
+    margin: $lem;
+  }
+}
