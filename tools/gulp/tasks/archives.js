@@ -77,18 +77,16 @@ var generateFile = function(archive) {
 
   content += "{% set title='" + archive.category + "' %}"
   content += "{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}";
-  content += "<section class='tag'>";
-  content += "<h3 class='tag__title'>" + archive.category + "</h3>";
+  content += "<ul class='ul'>";
 
   for (var i=0; i < archive.articles.length; i++) {
-    content += "<article>";
-    content += "<h3 class='article__title'>" + archive.articles[i].title + "</h3>";
+    content += "<li class='li'>";
     content += "<a class='link' href='{{ site.url }}" + archive.articles[i].url + "' title='" + archive.articles[i].title + "'>" + archive.articles[i].title + "</a>";
     content += "<date class='article__date'>{{ '" + archive.articles[i].date + "' | date('F Y') }}</date>";
-    content += "</article>";
+    content += "</li>";
   }
 
-  content += "</section>";
+  content += "</ul>";
   content += "{% endblock %}";
 
   return content;
