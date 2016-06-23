@@ -1,6 +1,5 @@
-{% extends '../../project/templates/default/default.html.swig' %}
-
 {% set article = articles[2] %}
+{% extends '../../project/templates/default/default.html.swig' %}
 
 {% block title %}
   {{ article.title }}

@@ -19,6 +19,14 @@ html {
     @include section-padding;
     @include default--landscape;
 
+    .article,
+    .articles,
+    .tags {
+      margin: $lem 0;
+      padding: $lem;
+      @include border(normal, all);
+    }
+
     .article {
       @include article;
     }
@@ -27,21 +35,16 @@ html {
       @include prevnext;
     }
 
+    .meta {
+      @include meta;
+    }
+
     .articles {
       @include articles;
     }
 
     .tags {
       @include tags;
-    }
-
-
-    .article,
-    .articles,
-    .tags {
-      margin: $lem;
-      padding: $lem;
-      @include border(normal, all);
     }
 
     .footer {
