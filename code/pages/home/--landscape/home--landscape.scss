@@ -11,7 +11,8 @@
 
       .prevnext {
         position: relative;
-        top: -$lem * 3;
+        top: -$lem * 5;
+        padding: $lem;
       }
 
       .articles,
