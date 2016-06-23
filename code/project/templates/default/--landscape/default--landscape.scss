@@ -1,4 +1,4 @@
-@mixin home--landscape {
+@mixin default--landscape {
   @include landscape {
     .container {
       display: flex;

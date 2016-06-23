@@ -1,10 +1,22 @@
 {% extends '../../project/templates/default/default.html.swig' %}
+
+{% set article = articles[2] %}
+
+{% block title %}
+  {{ article.title }}
+{% endblock %}
+
 {% block content %}
+  <p>
+    We are programmable biocomputers shaped by Culture.
+    A culture controlled by state and capital, soon by Technology.
+  </p>
 
-  {% set article = articles[2] %}
-  {% include '../../project/article/article.html.swig' %}
-  {% include '../../project/prevnext/prevnext.html.swig' %}
+  <p>
+    This era could be about a new metasystem transition. For such a shift we need, first of all, new senses.
+  </p>
 
-  {% include '../../project/articles/articles.html.swig' %}
-  {% include '../../project/tags/tags.html.swig' %}
+  <p>
+    A new perception about ourselves built bottom up, by a new generation, on new values.
+  </p>
 {% endblock %}

@@ -7,32 +7,7 @@
 html {
   &.home {
     body {
-      @include home--landscape;
-
-      .article {
-        @include article;
-      }
-
-      .prevnext {
-        @include prevnext;
-      }
       
-      .articles {
-        @include articles;
-      }
-
-      .tags {
-        @include tags;
-      }
-
-
-      .article,
-      .articles,
-      .tags {
-        margin: $lem;
-        padding: $lem;
-        @include border(normal, all);
-      }
     }
   }
 }
