@@ -1,3 +1,7 @@
 @mixin tags {
-  
+  .trigger {
+    .arrow-with-triangle {
+      @include arrow-with-triangle;
+    }
+  }
 }

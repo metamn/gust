@@ -5,9 +5,11 @@
 //
 // Styleguide home
 html {
-  &.home {
+  &.gust {
     body {
-      
+      .article__title {
+        display: none;
+      }
     }
   }
 }

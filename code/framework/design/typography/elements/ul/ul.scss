@@ -1,3 +1,6 @@
 @mixin ul {
-  list-style: none;
+  ul,
+  .ul {
+    list-style: none;
+  }
 }

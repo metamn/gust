@@ -1,3 +1,11 @@
 @mixin articles {
+  .trigger {
+    .arrow-with-triangle {
+      @include arrow-with-triangle;
+    }
+  }
   
+  .ul {
+    display: none;
+  }
 }

@@ -85,10 +85,17 @@ $text-block-width: 25em;
     
   }
   
-  // Date
-  // - Sate
-  @if ($variant == 'date') {
-    @include font(nimbus-sans-black);
+  // Article body text
+  // - Settings for very long text.
+  @if ($variant == 'article-body-text') {
+    @include p;
+    @include h2;
+    @include h3;
+    @include a;
+    @include ol;
+    @include ul;
+    @include blockquote;
+    @include image;
     
     
     
@@ -159,8 +166,15 @@ $text-block-width: 25em;
   
 }
 
-.text-style--date {
-  @include font(nimbus-sans-black);
+.text-style--article-body-text {
+  @include p;
+  @include h2;
+  @include h3;
+  @include a;
+  @include ol;
+  @include ul;
+  @include blockquote;
+  @include image;
   
   
   

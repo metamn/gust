@@ -122,13 +122,33 @@
       ]
     },
     {
-      "name": "Date",
-      "description": "Sate",
-      "based_on": "Nimbus Sans Black",
+      "name": "Article body text",
+      "description": "Settings for very long text.",
+      "based_on": "Nimbus Sans",
       "mixins": [
         {
-          "name": "font",
-          "value": "nimbus-sans-black"
+          "name": "p"
+        },
+        {
+          "name": "h2"
+        },
+        {
+          "name": "h3"
+        },
+        {
+          "name": "a"
+        },
+        {
+          "name": "ol"
+        },
+        {
+          "name": "ul"
+        },
+        {
+          "name": "blockquote"
+        },
+        {
+          "name": "image"
         }
       ]
     }
