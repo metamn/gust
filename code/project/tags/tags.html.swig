@@ -3,12 +3,8 @@
 <nav class="tags">
   <h3>Tags</h3>
 
-  <div class="trigger">
-    {% set direction = "top" %}
-    {% include '../../framework/design/decorations/arrow-with-triangle/arrow-with-triangle.html.swig' %}
-
-    <span class="trigger__text">Tags</span>
-  </div>
+  {% set trigger_text = "Tags" %}
+  {% include "../../framework/design/decorations/trigger/trigger.html.swig" %}
 
   <ul class="ul">
     {#

@@ -20,11 +20,16 @@ html {
     @include default--landscape;
 
     .article,
-    .articles,
-    .tags {
+    .articles .ul,
+    .tags .ul {
       margin: $lem 0;
       padding: $lem;
       @include border(normal, all);
+    }
+
+    .articles,
+    .tags {
+      margin: $lem 0;
     }
 
     .article {

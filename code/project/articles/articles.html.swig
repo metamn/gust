@@ -1,12 +1,8 @@
 <nav class="articles">
   <h3>Articles</h3>
 
-  <div class="trigger">
-    {% set direction = "top" %}
-    {% include '../../framework/design/decorations/arrow-with-triangle/arrow-with-triangle.html.swig' %}
-
-    <span class="trigger__text">Archive</span>
-  </div>
+  {% set trigger_text = "Archive" %}
+  {% include "../../framework/design/decorations/trigger/trigger.html.swig" %}
 
   <ul class="ul">
     {#

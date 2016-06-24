@@ -1,0 +1,7 @@
+@mixin trigger {
+  display: flex;
+  
+  .arrow-with-triangle {
+    @include arrow-with-triangle;
+  }
+}

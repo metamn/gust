@@ -1,7 +1,10 @@
 @mixin tags {
   .trigger {
-    .arrow-with-triangle {
-      @include arrow-with-triangle;
-    }
+    @include trigger;
+    @include trigger--align-right;
+  }
+
+  .ul {
+    //display: none;
   }
 }

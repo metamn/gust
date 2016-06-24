@@ -1,0 +1,7 @@
+@mixin trigger--align-right {
+  justify-content: flex-end;
+
+  .arrow-with-triangle {
+    order: 2;
+  }
+}
