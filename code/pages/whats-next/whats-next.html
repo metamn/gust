@@ -68,7 +68,78 @@
       
 <p>
 It’s not easy to describe
- < class="card">
+ <span class="card__trigger">Stanislaw Lem</span>
+
+
+<aside class="card active">
+  <h3 class="card__title">Stanislaw Lem</h3>
+
+  
+
+
+
+  
+
+
+<figure class="figure {{ image.class }}">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+    
+    
+  
+
+
+  <!-- Image url can be relative or absolute -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/stanislaw-lem_desktop.png, /assets/images/stanislaw-lem_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/stanislaw-lem_laptop.png, /assets/images/stanislaw-lem_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/stanislaw-lem_tablet.png, /assets/images/stanislaw-lem_tablet2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/stanislaw-lem_mobile.png, /assets/images/stanislaw-lem_mobile2x.png 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/stanislaw-lem_laptop.png" alt="Stanislaw Lem">
+  </picture>
+
+  <figcaption class="figcaption figcaption">
+    The prophet of our times masked as a sci-fi legend.
+  </figcaption>
+
+
+</figure>
+
+</aside>
+
 <p>&mdash; to summarise his heritage to the world. But one thing is sure: he was a visionary strategist and a
 scholar spanning over multiple fields of science.
 </p>

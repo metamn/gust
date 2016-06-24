@@ -1,1 +1,7 @@
-< class="card">
+{% include '__trigger/card__trigger.html.swig' %}
+
+<aside class="card active">
+  <h3 class="card__title">{{ image.title }}</h3>
+
+  {% include '../../framework/structure/figure/figure.html.swig' %}
+</aside>

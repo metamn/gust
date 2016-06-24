@@ -1,0 +1,6 @@
+@mixin card__title {
+  display: flex;
+  order: 2;
+
+  @include text-style(on-background);
+}

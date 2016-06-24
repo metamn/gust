@@ -19,4 +19,9 @@
     @include text-style(body-text);
     @include text-style(article-body-text);
   }
+
+  .card {
+    @include card;
+    @include card--active;
+  }
 }
