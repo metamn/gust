@@ -8,6 +8,7 @@
   "people": [
     {
       "name": "alexander-brody",
+      "extension": ".jpg",
       "title": "Alexander Brody",
       "figcaption": "A gentleman.",
       "class": "person"

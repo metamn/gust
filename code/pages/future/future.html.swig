@@ -3,7 +3,5 @@
   The future already exists. If you really want something to happen think about it as it was already happened in the past.
 </p>
 
-{% set person = page.people[0] %} 
-{% set status = 'opened' %}
-{% include '../../framework/structure/figure/figure.html.swig' %}
+{% set image = people[0] %} {% include '../../project/card/card.html.swig' %}
 {% endblock %}
