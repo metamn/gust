@@ -1,0 +1,5 @@
+@mixin card__title--portrait {
+  @include portrait {
+    display: none;
+  }
+}

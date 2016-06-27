@@ -13,12 +13,14 @@
   "people": [
     {
       "name": "donald-knuth",
+      "extension": ".jpg",
       "title": "Donald Knuth",
       "figcaption": "The Yoda of computer programming.",
       "class": "person"
     },
     {
       "name": "john-horton-conway",
+      "extension": ".jpg",
       "title": "John Horton Conway",
       "figcaption": "Pure thinking.",
       "class": "person"

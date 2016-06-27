@@ -1,0 +1,5 @@
+@mixin card__title--landscape {
+  @include landscape {
+    margin-left: $lem / 4;
+  }
+}

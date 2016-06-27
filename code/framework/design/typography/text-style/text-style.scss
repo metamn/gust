@@ -74,7 +74,7 @@ $text-block-width: 25em;
     @include scale(large-4);
     @include word-wrap;
     
-    max-width: 35em;
+    line-height: 1;
     
     
     @include mobile {
@@ -96,6 +96,15 @@ $text-block-width: 25em;
     @include ul;
     @include blockquote;
     @include image;
+    
+    
+    
+  }
+  
+  // Figcaption
+  // - Figure caption
+  @if ($variant == 'figcaption') {
+    @include scale(small-1);
     
     
     
@@ -155,7 +164,7 @@ $text-block-width: 25em;
   @include scale(large-4);
   @include word-wrap;
   
-  max-width: 35em;
+  line-height: 1;
   
   
   @include mobile {
@@ -175,6 +184,13 @@ $text-block-width: 25em;
   @include ul;
   @include blockquote;
   @include image;
+  
+  
+  
+}
+
+.text-style--figcaption {
+  @include scale(small-1);
   
   
   

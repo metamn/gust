@@ -2,5 +2,6 @@
   display: flex;
   order: 2;
 
-  @include text-style(on-background);
+  @include card__title--landscape;
+  @include card__title--portrait;
 }

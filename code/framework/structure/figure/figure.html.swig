@@ -2,7 +2,7 @@
 
 {% set klass = "figure" %}
 {% if image.class %}
-  {% set klass = "figure {{ image.class }}" %}
+  {% set klass = "figure " + image.class %}
 {% endif %}
 
 <figure class="{{ klass }}">

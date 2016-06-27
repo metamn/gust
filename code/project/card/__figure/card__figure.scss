@@ -2,9 +2,5 @@
   display: flex;
   align-items: center;
 
-  @include figure(figcaption);
-
-  .figcaption {
-    @include text-style(on-background);
-  }
+  @include figure($figcaption: on);
 }

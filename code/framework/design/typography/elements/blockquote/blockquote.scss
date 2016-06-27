@@ -1,9 +1,10 @@
 @mixin blockquote {
   blockquote,
   .blockquote {
-    @include font(nimbus-sans-regular);
+    @include background-image-dotted;
     @include scale(large-1);
     text-align: center;
     margin: $lem 0;
+    padding: $lem;
   }
 }
