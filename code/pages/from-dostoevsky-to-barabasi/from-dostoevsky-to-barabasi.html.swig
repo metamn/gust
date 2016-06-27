@@ -12,11 +12,7 @@ Think yourself as a dreaming robot on autopilot and you will be closer to the tr
 <p><strong>2010, Boston</strong></p>
 
 
-{% set person = page.people[0] %} 
-{% set status = 'opened' %}
-{% include '../../framework/structure/figure/figure.html.swig' %}
+{% set image = people[0] %} {% include '../../project/card/card.html.swig' %}
 
-{% set person = page.people[1] %} 
-{% include '../../framework/structure/figure/figure.html.swig' %}
-
+{% set image = people[1] %} {% include '../../project/card/card.html.swig' %}
 {% endblock %}

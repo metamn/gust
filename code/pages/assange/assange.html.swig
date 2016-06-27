@@ -12,8 +12,5 @@ Currently there is no obsolete power structure left un-napstered, politics was t
 In our scale-free networks future everybody will have to work for the money, even the state and the capital, moreover, every entity must collaborate to form an ecosystem whom only god is Progress.
 </p>
 
-{% set person = page.people[0] %} 
-{% set status = 'opened' %}
-{% include '../../framework/structure/figure/figure.html.swig' %}
-
+{% set image = people[0] %} {% include '../../project/card/card.html.swig' %}
 {% endblock %}

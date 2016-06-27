@@ -11,6 +11,7 @@
   "people": [
     {
       "name": "nikita-mikhalkov",
+      "extension": ".jpg",
       "title": "Nikita Mikhalkov",
       "figcaption": "The Russian cultural oligarch.",
       "class": "person"

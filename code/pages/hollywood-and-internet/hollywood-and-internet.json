@@ -10,6 +10,7 @@
   "people": [
     {
       "name": "john-dos-passos",
+      "extension": ".jpg",
       "title": "John Dos Passos",
       "figcaption": "A sharp eyewitness of the birth of capitalism.",
       "class": "person"

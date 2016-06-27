@@ -12,26 +12,26 @@ Find the best sources. Combine with your existing knowledge, arrange to your min
 </p>
 
 <p>
-Focus on adding structure to the unstructured, to order the unordered. Be capable to name things and make them yours. Make sure your ideas are followed. 
+Focus on adding structure to the unstructured, to order the unordered. Be capable to name things and make them yours. Make sure your ideas are followed.
 </p>
 
 <blockquote>
 Structure &rarr; Name &rarr; Fame.
 </blockquote>
 
-
+{#
 <h3>Channeling Information</h3>
 <p>
-Gathering and uploading information made the web 2.0 revolution. 
-The next web is about marking/making information in such way to become the most useful 
-possible. 
+Gathering and uploading information made the web 2.0 revolution.
+The next web is about marking/making information in such way to become the most useful
+possible.
 </p>
 <p>
 Information won’t be just plain data, it will offer and incorporate some useful aspects about itself, it will behave like an entity which is capable to act on its own — think in tags, metadata, API, microformats, semantics and mashups.
 </p>
 
 <p>
-Currently there are such a few tools to markup information on the fly. 
+Currently there are such a few tools to markup information on the fly.
 And these markups are mostly personal, your opinion about that piece of data might sound unfamiliar to others, or they might tag the same information differently. Understanding information is still very subjective.
 </p>
 
@@ -68,7 +68,7 @@ You decide what to reveal to whom to reveal under which identity you prefer.
 The missing solution on the information technology market is about mapping and owning the information in such way to represent objective knowledge to its users.
 </p>
 <p>
-We saw information can be gathered and shared easily on every channel 
+We saw information can be gathered and shared easily on every channel
 and these channels / service providers being usually the real owners and profiters of the hosted information. We’ve also seen information tends to become richer by encapsulating its various aspects. Also we have got acquainted with the open source nature of the information regarding its own evolution.
 </p>
 <p>
@@ -85,10 +85,11 @@ In other words we must have to have the ability to import information from all s
 Until now the information economy was about to let people freely read and write. Enjoyment was not in the same way free for all participants. Some offering the infrastructures for reading and writing gathered more benefits than the generators of the content itself who often got procrastinated.
 </p>
 <p>
-No one can expect infrastructure owners and service providers to focus 
+No one can expect infrastructure owners and service providers to focus
 on such needs. They are now in war fighting for more digital identity control.
 </p>
 <p>
 During that war we must create a new system where reading, writing and enjoying are equally important and supported.
 </p>
+#}
 {% endblock %}

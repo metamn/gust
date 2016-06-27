@@ -12,7 +12,5 @@ The art of living cannot be learned anymore. We have no visible examples around.
 Before the net will turn us into empty bots everybody should read at least one essay from Lyudmila Ulitskaya.
 </p>
 
-{% set person = page.people[0] %} 
-{% set status = 'opened' %}
-{% include '../../framework/structure/figure/figure.html.swig' %}
+{% set image = people[0] %} {% include '../../project/card/card.html.swig' %}
 {% endblock %}

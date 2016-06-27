@@ -6,6 +6,7 @@
   "people": [
     {
       "name": "julian-assange",
+      "extension": ".jpg",
       "title": "Julian Assange",
       "figcaption": "Breaking the sanctuary of state and politics",
       "class": "person"

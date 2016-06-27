@@ -6,7 +6,5 @@ The century of America literally killed all that part of the human <em>spirit</e
 This second century of America will literally kill all human <em>life</em> which won’t be tied to fear or to pragmatism.
 </p>
 
-{% set person = page.people[0] %} 
-{% set status = 'opened' %}
-{% include '../../framework/structure/figure/figure.html.swig' %}
+{% set image = people[0] %} {% include '../../project/card/card.html.swig' %}
 {% endblock %}
