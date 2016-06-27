@@ -14,13 +14,15 @@
   ],
   "people": [
     {
-      "name": "paul-virilio.jpeg",
+      "name": "paul-virilio",
+      "extension": ".jpg",
       "title": "Paul Virilio",
       "figcaption": "The one who lived and understood technology is more important than humans.",
       "class": "person"
     },
     {
-      "name": "craig-venter",
+      "name": "craig-j-venter",
+      "extension": ".jpg",
       "title": "Craig J Venter",
       "figcaption": "A biologist acting God and creating synthetic life.",
       "class": "person"

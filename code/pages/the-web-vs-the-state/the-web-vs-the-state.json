@@ -13,6 +13,7 @@
   "people": [
     {
       "name": "gerd-gerken",
+      "extension": ".jpg",
       "title": "Gerd Gerken",
       "figcaption": "He wrote 20 years ago the headlines of today. And he still writes.",
       "class": "person"

@@ -11,8 +11,8 @@ Digging deeper and thinking fresher the Singularity might be already arrived and
 
 <h3>The Oldies</h3>
 <p>
-Vernon Vinge, Marvin Minsky, Ray Kurzweil are all right. 
-There is an intelligence explosion in this superfast economic and social climate. 
+Vernon Vinge, Marvin Minsky, Ray Kurzweil are all right.
+There is an intelligence explosion in this superfast economic and social climate.
 </p>
 <p>
 Technology and information is almost free / highly accessible, minds are much open, we have more time for the self, for thinking, seeing and reasoning. Now you can afford more than ever to be human, real homo sapiens.
@@ -24,11 +24,11 @@ So why that fear? Why eminents are thinking the rise of a superintelligence will
 <h3>The Other Oldie</h3>
 <p>
 After a while of putting myself on the Singularity wave and scaring out regularly
-some friends  &mdash; 
-I’ve started to look in the past how humanity dealt with similar situations. 
-And found more than I could imagine: 
-{% set person = page.people[0] %} {% include '../../framework/structure/figure/figure.html.swig' %} 
-And his book describing, demonstrating and explaining metasystem transitions. 
+some friends  &mdash;
+I’ve started to look in the past how humanity dealt with similar situations.
+And found more than I could imagine:
+{% set image = people[0] %} {% include '../../project/card/card.html.swig' %}
+And his book describing, demonstrating and explaining metasystem transitions.
 <blockquote>
 The Phenomenon of Science — A Cybernetic Approach To Human Evolution
 </blockquote>
@@ -46,11 +46,11 @@ You can read online 'The Phenomenon of Science' <a href="http://pcp.vub.ac.be/PO
 After a series of metasystem transitions — the Control of Position, Motion, Irritability, Reflex, Association and Thought — today the most advanced metasystem on this planet is the Culture, whatever it might be.
 </p>
 <p>
-A set of beliefs, canons for the known and the unknown, memes spreading on 
+A set of beliefs, canons for the known and the unknown, memes spreading on
 all channels, individual and collective identities, races, casts, continents — you name it.
 </p>
 <p>
-And one thing is sure: the next big bang, the Singularity is about the Control of 
+And one thing is sure: the next big bang, the Singularity is about the Control of
 the Culture. Not about robots, cyborgs and transhumans, digital implants and ufos.
 </p>
 

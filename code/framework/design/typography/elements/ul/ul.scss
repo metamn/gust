@@ -1,6 +1,10 @@
-@mixin ul {
+@mixin ul($type: none) {
   ul,
   .ul {
     list-style: none;
+  }
+
+  @if ($type == "bullets") {
+    @include ul--bullets;
   }
 }

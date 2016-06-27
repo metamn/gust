@@ -18,18 +18,21 @@
   "people": [
     {
       "name": "hamvas-bela",
+      "extension": ".jpg",
       "title": "Bela Hamvas",
       "figcaption": "The librarian of all ancient knowledge.",
       "class": "person"
     },
     {
       "name": "steve-yegge",
+      "extension": ".jpg",
       "title": "Steve Yegge",
       "figcaption": "The new breed. One who knows what Control really is.",
       "class": "person"
     },
     {
       "name": "arthur-rimbaud",
+      "extension": ".jpg",
       "title": "Arthur Rimbaud",
       "figcaption": "The invincible genius. He was deliberately looking for death.",
       "class": "person"

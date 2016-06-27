@@ -18,6 +18,7 @@
   "people": [
     {
       "name": "stanislaw-lem",
+      "extension": ".jpeg",
       "title": "Stanislaw Lem",
       "figcaption": "The prophet of our times masked as a sci-fi legend.",
       "class": "person"

@@ -9,12 +9,13 @@
   "people": [
     {
       "name": "bertrand-russell",
+      "extension": ".jpg",
       "title": "Bertrand Russell",
       "figcaption": "The one who broke all rules and changed the XX. century",
       "class": "person"
     },
     {
-      "name": "john-lilly",
+      "name": "john-c-lilly",
       "title": "John C Lilly",
       "figcaption": "He was programming dolphins and humans. Like we do computers.",
       "class": "person"

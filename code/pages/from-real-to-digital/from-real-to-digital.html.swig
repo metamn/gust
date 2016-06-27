@@ -7,11 +7,11 @@ Since inception internet was meant to deconstruct the existing real world barrie
 <p>
 In mathematics there are three main approaches to solve complex problems:
 <ul class="inside-text">
-  <li>Reductio ad absurdum, 
+  <li>Reductio ad absurdum,
   a purely logical approach to show something will lead to an absurd situation</li>
   <li>Induction, a tool to make generalisations from basic true assumptions, and</li>
-  <li>Divide et impera, when the problem is too complex to be solved with the 
-  methods above it is decomposed into smaller problems on which the above methods 
+  <li>Divide et impera, when the problem is too complex to be solved with the
+  methods above it is decomposed into smaller problems on which the above methods
   can be applied with success.</li>
 </ul>
 </p>
@@ -45,8 +45,8 @@ Internet censorship gained momentum especially during the 2008-2009 financial cr
 All our world is built on information; what we know makes our existence. Intelligence is the capability of sensing and processing information. Free information takes our collective intelligence and cultural evolution to a next level.
 </p>
 <p>
-And when humans as a whole entity, without being divided will take over freely the 
-control of their culture a next metasystem transition will happen. 
+And when humans as a whole entity, without being divided will take over freely the
+control of their culture a next metasystem transition will happen.
 </p>
 <p>
 And as always with each transition a complete new Universe will be revealed equipping humans with new senses assuring the existence of a complete bi-directional interface between the old and the brave new world(s).
@@ -54,13 +54,13 @@ And as always with each transition a complete new Universe will be revealed equi
 
 <h3>Synthetic Life</h3>
 <p>
-Western culture, in contrast with Eastern philosophy — evolution vs. involution — was 
-always looking outside to find answers for life. 
+Western culture, in contrast with Eastern philosophy — evolution vs. involution — was
+always looking outside to find answers for life.
 </p>
 <p>
-As well stated by 
-{% set person = page.people[0] %} {% include '../../framework/structure/figure/figure.html.swig' %} 
-in history, during the evolution technology, the tools humans used to enhance their 
+As well stated by
+{% set image = people[0] %} {% include '../../project/card/card.html.swig' %}
+in history, during the evolution technology, the tools humans used to enhance their
 life was always the key factor making the difference.
 </p>
 <p>
@@ -74,9 +74,9 @@ This bi-directional interface between biological and synthetic life which is hos
 </p>
 
 <p class="notice">
-Edge.org has a 
+Edge.org has a
 <a href="http://www.edge.org/3rd_culture/church_venter09/church_venter09_index.html#dyson">Master Class</a>
-on subject with {% set person = page.people[1] %} {% include '../../framework/structure/figure/figure.html.swig' %}
+on subject with {% set image = people[1] %} {% include '../../project/card/card.html.swig' %}
 </p>
 
 <h3>Mind Control</h3>

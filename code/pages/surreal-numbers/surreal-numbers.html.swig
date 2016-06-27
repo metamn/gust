@@ -42,6 +42,6 @@ You can’t win a game if there is a time factor in.
 </p>
 
 <p class="notice">
-Download an introduction to Surreal Numbers <a href="http://www.tondering.dk/claus/sur15.pdf">here</a>. (PDF)
+Download an introduction to Surreal Numbers <a href="http://www.tondering.dk/claus/sur15.pdf">here (PDF)</a>.
 </p>
 {% endblock %}

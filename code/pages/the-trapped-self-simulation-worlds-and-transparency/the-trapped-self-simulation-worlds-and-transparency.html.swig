@@ -8,15 +8,13 @@ And we have that point.
 
 <h3>The Trapped Self</h3>
 <p>
-{% set person = page.people[0] %} 
-{% set status = 'opened' %}
-{% include '../../framework/structure/figure/figure.html.swig' %} was extraordinary. 
-As a librarian he had access to old ancient knowledge. 
+{% set image = people[0] %} {% include '../../project/card/card.html.swig' %} was extraordinary.
+As a librarian he had access to old ancient knowledge.
 He understood and translated all to us: the world from involution through Hermes Trismegistus to current times.
 </p>
 <p>
 We are living in simulacrum.  We need to be deceived and the world around deceives us.
-Our inner self feels that and it is continuously looking for answers. 
+Our inner self feels that and it is continuously looking for answers.
 </p>
 <p>
 Ancient science was aware of simulacra and the nature of the soul, they found a way, that distant point outside of the known world where one can clearly look around and understand everything.
@@ -30,10 +28,10 @@ A leader who controls society without obscure personal interests.
 
 <h3>Simulation Worlds</h3>
 <p>
-{% set person = page.people[1] %} {% include '../../framework/structure/figure/figure.html.swig' %} started it’s last odyssey with the story of a Siamese fighting fish 
-trapped into and died in it’s own tank. 
-Trapped into an universe which borders were all known and not extendable by 
-imagination 
+{% set image = people[1] %} {% include '../../project/card/card.html.swig' %} started it’s last odyssey with the story of a Siamese fighting fish
+trapped into and died in it’s own tank.
+Trapped into an universe which borders were all known and not extendable by
+imagination
 and simulated worlds.
 </p>
 <p>
@@ -42,10 +40,10 @@ Next, he takes us to another simulation, to Super Mario Kart’s computer world 
 
 <p>
 <blockquote>
-I am thinked. ({% set person = page.people[2] %} {% set status = '' %} {% include '../../framework/structure/figure/figure.html.swig' %})
+I am thinked. {% set image = people[2] %} {% include '../../project/card/card.html.swig' %}
 </blockquote>
 
-Yes, you are — your existence is — thinked by someone else. You are nothing than 
+Yes, you are — your existence is — thinked by someone else. You are nothing than
 someone else’s idea. The one who names you, who is calling on your name is controlling you totally. If you are not aware of this you are like Super Mario.
 </p>
 <p>
@@ -95,8 +93,8 @@ A good, and immediately available starting point is to discover the nearest simu
 <p class="notice">
   A good night read from Steve Yegge
   <a href="https://docs.google.com/Doc?id=ddv7939q_20gw8h9pcx">is a must</a>.
-  <br/> 
-  Or dive into 
+  <br/>
+  Or dive into
   <a href="http://www.transparencynow.com/tablesim.htm">The Age Of Simulation</a>
   and Fabricated Environments.
 </p>

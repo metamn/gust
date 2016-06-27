@@ -3,5 +3,11 @@
   .h3 {
     @include text-style(title);
     margin-top: $lem;
+
+    display: flex;
+
+    + p {
+      margin-top: $lem;
+    }
   }
 }
