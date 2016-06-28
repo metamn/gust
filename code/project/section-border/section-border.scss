@@ -1,0 +1,5 @@
+@mixin section-border {
+  margin: $lem 0;
+  padding: $lem;
+  @include border(normal, all);
+}

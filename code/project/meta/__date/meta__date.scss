@@ -1,1 +1,3 @@
-@mixin meta__date {}
+@mixin meta__date {
+  @include colors(black-on-white);
+}

@@ -1,5 +1,6 @@
 @mixin meta {
   @include grid(2, $lem, $lem);
+  align-items: baseline;
 
   &__date {
     @include meta__date;

@@ -12,6 +12,11 @@
         padding: 0;
         border: none;
       }
+
+      .prevnext,
+      .meta {
+        @include section-border;
+      }
     }
   }
 }

@@ -1,7 +1,0 @@
-@mixin tags--landscape {
-  @include landscape {
-    .ul {
-      @include grid(3, $lem, $lem);
-    }
-  }
-}

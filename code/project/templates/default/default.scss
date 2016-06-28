@@ -13,22 +13,28 @@ html {
   @include default--archive;
 
   body {
-    @include default--mobile;
     @include semantic-html5-titles;
     @include typography-reset;
     @include text-style(default);
 
     @include section-padding;
 
+    @include default--mobile;
     @include default--landscape;
     @include default--portrait;
 
     .article,
     .articles .ul,
     .tags .ul {
-      margin: $lem 0;
-      padding: $lem;
-      @include border(normal, all);
+      @include section-border;
+    }
+
+    .prevnext,
+    .meta,
+    .articles,
+    .tags {
+      @include text-style(body-text);
+      max-width: none;
     }
 
     .articles,
