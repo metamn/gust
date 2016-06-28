@@ -1,0 +1,10 @@
+@mixin default--portrait {
+  @include portrait {
+    .prevnext,
+    .meta,
+    .articles,
+    .tags {
+      padding: $lem 0;
+    }
+  }
+}

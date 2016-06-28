@@ -7,7 +7,7 @@
   {% include "../../framework/design/decorations/trigger/trigger.html.swig" %}
 
   <ul class="ul">
-    {#
+    {# #}
     {% for archive in archives %}
       <li class="li">
         {% set classname = c.classname(archive.category) %}
@@ -17,6 +17,6 @@
         {% include "../../framework/design/typography/elements/link/link.html.swig" %}
       </li>
     {% endfor %}
-    #}
+    {# #}
   </ul>
 </nav>

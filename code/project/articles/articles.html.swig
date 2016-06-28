@@ -5,6 +5,7 @@
   {% include "../../framework/design/decorations/trigger/trigger.html.swig" %}
 
   <ul class="ul">
+    {#
     {% for article in articles %}
       {% if article.title and !loop.first and article.title != "Home" %}
         <li class="li">
@@ -14,5 +15,6 @@
         </li>
       {% endif %}
     {% endfor %}
+    #}
   </ul>
 </nav>

@@ -19,7 +19,9 @@ html {
     @include text-style(default);
 
     @include section-padding;
+
     @include default--landscape;
+    @include default--portrait;
 
     .article,
     .articles .ul,
