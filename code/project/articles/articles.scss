@@ -4,6 +4,6 @@
   }
 
   .ul {
-    //display: none;
+    @include ul--toc;
   }
 }

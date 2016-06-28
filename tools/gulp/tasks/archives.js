@@ -78,6 +78,7 @@ var generateFile = function(archive) {
   content += "{% set title='" + archive.category + "' %}";
   content += "{% set klass='archive' %}";
   content += "{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}";
+  content += "<nav class='articles'><h3>Articles</h3></nav>";
   content += "<ul class='ul'>";
 
   for (var i=0; i < archive.articles.length; i++) {
@@ -88,6 +89,7 @@ var generateFile = function(archive) {
   }
 
   content += "</ul>";
+  content += "</nav>";
   content += "{% endblock %}";
 
   return content;
