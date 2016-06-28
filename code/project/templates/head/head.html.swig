@@ -8,7 +8,7 @@
 {% set scripts = j.includejs(site.javascripts.header) %}
 
 <!doctype html>
-<html lang="en" class="{{ classname }}">
+<html lang="en" class="{{ classname }} {{ klass }}">
   <head>
     {% include '__meta/head__meta.html.swig' %}
 

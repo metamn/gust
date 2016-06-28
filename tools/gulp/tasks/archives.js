@@ -75,14 +75,15 @@ var collectArchives = function(categories, articles) {
 var generateFile = function(archive) {
   var content = '';
 
-  content += "{% set title='" + archive.category + "' %}"
+  content += "{% set title='" + archive.category + "' %}";
+  content += "{% set klass='archive' %}";
   content += "{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}";
   content += "<ul class='ul'>";
 
   for (var i=0; i < archive.articles.length; i++) {
     content += "<li class='li'>";
     content += "<a class='link' href='{{ site.url }}" + archive.articles[i].url + "' title='" + archive.articles[i].title + "'>" + archive.articles[i].title + "</a>";
-    content += "<date class='article__date'>{{ '" + archive.articles[i].date + "' | date('F Y') }}</date>";
+    content += "<date class='date'>{{ '" + archive.articles[i].date + "' | date('F Y') }}</date>";
     content += "</li>";
   }
 
