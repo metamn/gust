@@ -74,7 +74,7 @@ $text-block-width: 25em;
     @include scale(large-4);
     @include word-wrap;
     
-    line-height: 1;
+    line-height: 1.1;
     
     
     @include mobile {
@@ -164,7 +164,7 @@ $text-block-width: 25em;
   @include scale(large-4);
   @include word-wrap;
   
-  line-height: 1;
+  line-height: 1.1;
   
   
   @include mobile {
