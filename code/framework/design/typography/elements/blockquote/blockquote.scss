@@ -3,8 +3,11 @@
   .blockquote {
     @include background-image-dotted;
     @include scale(large-1);
+
     text-align: center;
     margin: $lem 0;
     padding: $lem;
+
+    @include blockquote--mobile;
   }
 }
