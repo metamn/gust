@@ -1,0 +1,14 @@
+@mixin tags--portrait {
+  @include portrait {
+    .ul {
+      display: flex;
+      flex-wrap: wrap;
+
+      .li {
+        .link {
+          flex-basis: auto;
+        }
+      }
+    }
+  }
+}

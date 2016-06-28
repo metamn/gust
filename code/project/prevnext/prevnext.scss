@@ -5,4 +5,8 @@
   .link-with-arrow-triangle {
     @include link-with-arrow-triangle;
   }
+
+  .link {
+    @include link(black-on-white, black-on-white, black-on-white, black-on-white);
+  }
 }

@@ -1,5 +1,11 @@
 @mixin meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include grid(2, $lem, $lem);
+
+  &__date {
+    @include meta__date;
+  }
+
+  &__categories {
+    @include meta__categories;
+  }
 }

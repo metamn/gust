@@ -3,15 +3,12 @@
   margin: 0;
 
   .li {
-    display: flex;
-    justify-content: space-between;
+    @include grid(2, $lem, $lem, $has-title: 0);
+    flex-wrap: nowrap;
     align-items: baseline;
-
-    padding: $lem / 2 0;
 
     .link {
       @include link(black-on-white, black-on-white, gray-on-white, black-on-white);
-      margin-right: $lem;
     }
 
     .date {

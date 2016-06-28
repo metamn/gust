@@ -3,7 +3,7 @@
 <nav class="tags">
   <h3>Tags</h3>
 
-  {% set trigger_text = "Tags" %}
+  {% set trigger_text = "Values" %}
   {% include "../../framework/design/decorations/trigger/trigger.html.swig" %}
 
   <ul class="ul">

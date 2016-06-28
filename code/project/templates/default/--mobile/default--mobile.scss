@@ -4,9 +4,14 @@
 // Works well on Chrome, on Firefox not really
 //
 @mixin default--mobile {
-  .container {
-    @include mobile {
+  @include mobile {
+    .container {
       overflow-x: hidden;
+
+      .article {
+        padding: 0;
+        border: none;
+      }
     }
   }
 }

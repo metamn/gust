@@ -1,1 +1,7 @@
-@mixin meta__categories {}
+@mixin meta__categories {
+  text-align: right;
+  
+  .link {
+    @include link(black-on-white, black-on-white, gray-on-white, black-on-white);
+  }
+}
