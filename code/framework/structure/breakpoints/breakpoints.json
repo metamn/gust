@@ -14,9 +14,18 @@
       "name": "desktop",
       "value": "1600px",
       "description": "Screens larger than 1600px"
+    },
+    {
+      "name": "ie",
+      "value": "n/a",
+      "description": "IE 10/11"
     }
   ],
   "responsive_mixins": [
+    {
+      "name": "ie",
+      "media_query": "(-ms-high-contrast: none), (-ms-high-contrast: active)"
+    },
     {
       "name": "portrait",
       "media_query": "(orientation: portrait)"

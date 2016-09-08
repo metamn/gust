@@ -14,8 +14,17 @@ $breakpoint-tablet: 1024px;
 // Screens larger than 1600px
 $breakpoint-desktop: 1600px;
 
+// IE 10/11
+$breakpoint-ie: n/a;
 
 
+
+
+@mixin ie {
+  @media only screen and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    @content
+  }
+}
 
 @mixin portrait {
   @media only screen and (orientation: portrait) {

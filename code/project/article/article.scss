@@ -18,6 +18,10 @@
     padding: 5vh 0;
     @include text-style(body-text);
     @include text-style(article-body-text);
+
+    @include mobile {
+      max-width: 100%;
+    }
   }
 
   .card {
