@@ -1,19 +1,24 @@
 @mixin person {
+  flex-basis: auto !important;
   display: flex;
   flex-wrap: wrap;
 
-  @include text-style(body-text);
-  @include text-style(article-body-text);
-
-  .card__trigger,
-  h3 {
+  .card__trigger {
     display: none;
   }
-
 
   .card {
     @include card;
     @include card--active;
+
+    &__title {
+      @include text-style(title);
+    }
+
+    .figcaption {
+      padding: $lem;
+      font-size: larger;
+    }
   }
 
   &__quote {

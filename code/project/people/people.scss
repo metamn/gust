@@ -9,6 +9,10 @@
 
   .ul {
     @include ul--toc;
+
+    .li {
+      border-bottom: 1px solid;
+    }
   }
 
   .person {

@@ -1,7 +1,7 @@
 <section class="people">
   <h3>People</h3>
 
-  {% set trigger_text = "Generation" %}
+  {% set trigger_text = "New generation" %}
   {% include "../../framework/design/decorations/trigger/trigger.html.swig" %}
 
   <ul class="ul">
