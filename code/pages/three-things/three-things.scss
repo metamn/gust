@@ -1,0 +1,18 @@
+html {
+  &.three-things {
+    body {
+      .article {
+        .card__trigger {
+          @include landscape {
+            display: none;
+          }
+
+          @include portrait {
+            margin-top: $lem * 2;
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{% set title='entropy' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}style' title='Style'>Style</a><date class='date'>{{ '2012-08-03' | date('F Y') }}</date></li></ul>{% endblock %}

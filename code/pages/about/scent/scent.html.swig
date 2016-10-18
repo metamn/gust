@@ -1,0 +1,1 @@
+{% set title='scent' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}scent' title='Scent'>Scent</a><date class='date'>{{ '2012-05-03' | date('F Y') }}</date></li></ul>{% endblock %}

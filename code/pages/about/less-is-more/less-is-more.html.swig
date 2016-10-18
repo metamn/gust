@@ -1,0 +1,1 @@
+{% set title='less is more' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}letting-go' title='Letting Go'>Letting Go</a><date class='date'>{{ '2012-06-03' | date('F Y') }}</date></li></ul>{% endblock %}

@@ -1,0 +1,1 @@
+{% set title='random' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}there-are-no-requirements' title='There Are No Requirements'>There Are No Requirements</a><date class='date'>{{ '2012-06-03' | date('F Y') }}</date></li></ul>{% endblock %}

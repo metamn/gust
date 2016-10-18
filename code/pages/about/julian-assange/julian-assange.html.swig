@@ -1,0 +1,1 @@
+{% set title='Julian Assange' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}assange' title='Assange'>Assange</a><date class='date'>{{ '2010-12-04' | date('F Y') }}</date></li></ul>{% endblock %}

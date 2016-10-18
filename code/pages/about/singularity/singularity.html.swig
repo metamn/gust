@@ -1,0 +1,1 @@
+{% set title='singularity' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}the-web-is-the-singularity' title='The Web Is The Singularity'>The Web Is The Singularity</a><date class='date'>{{ '2009-06-13' | date('F Y') }}</date></li></ul>{% endblock %}

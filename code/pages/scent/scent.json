@@ -1,0 +1,20 @@
+{
+  "categories": [
+    "scent",
+    "humour",
+    "values",
+    "Alexander Brody"
+  ],
+  "people": [
+    {
+      "name": "alexander-brody",
+      "extension": ".jpg",
+      "title": "Alexander Brody",
+      "figcaption": "A gentleman.",
+      "class": "person"
+    }
+  ],
+  "url": "scent",
+  "date": "2012-05-03",
+  "title": "Scent"
+}

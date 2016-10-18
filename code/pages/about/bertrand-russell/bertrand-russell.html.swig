@@ -1,0 +1,1 @@
+{% set title='Bertrand Russell' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}force-come-with-me' title='Force come with me'>Force come with me</a><date class='date'>{{ '2009-01-12' | date('F Y') }}</date></li></ul>{% endblock %}

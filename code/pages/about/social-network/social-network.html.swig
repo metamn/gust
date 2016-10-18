@@ -1,0 +1,1 @@
+{% set title='social network' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}social-network' title='Social Network'>Social Network</a><date class='date'>{{ '2010-05-11' | date('F Y') }}</date></li></ul>{% endblock %}

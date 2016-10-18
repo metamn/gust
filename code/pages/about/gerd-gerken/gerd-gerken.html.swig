@@ -1,0 +1,1 @@
+{% set title='Gerd Gerken' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}the-web-vs-the-state' title='The Web vs. The State'>The Web vs. The State</a><date class='date'>{{ '2009-04-12' | date('F Y') }}</date></li></ul>{% endblock %}

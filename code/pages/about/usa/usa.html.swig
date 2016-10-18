@@ -1,0 +1,1 @@
+{% set title='USA' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}hollywood-and-internet' title='Hollywood And Internet'>Hollywood And Internet</a><date class='date'>{{ '2010-03-11' | date('F Y') }}</date></li></ul>{% endblock %}

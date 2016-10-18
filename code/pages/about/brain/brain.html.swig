@@ -1,0 +1,1 @@
+{% set title='brain' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}brain-race' title='Brain Race'>Brain Race</a><date class='date'>{{ '2010-02-06' | date('F Y') }}</date></li></ul>{% endblock %}
