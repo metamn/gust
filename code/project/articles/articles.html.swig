@@ -1,7 +1,7 @@
 <nav class="articles">
   <h3>Articles</h3>
 
-  {% set trigger_text = "Archive" %}
+  {% set trigger_text = "Sense" %}
   {% include "../../framework/design/decorations/trigger/trigger.html.swig" %}
 
   <ul class="ul">
