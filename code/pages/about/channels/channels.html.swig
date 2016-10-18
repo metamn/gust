@@ -1,1 +1,0 @@
-{% set title='channels' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}communication' title='Communication'>Communication</a><date class='date'>{{ '2009-12-15' | date('F Y') }}</date></li></ul>{% endblock %}

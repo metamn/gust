@@ -1,1 +1,0 @@
-{% set title='secondary values' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}secondary-values' title='Secondary Values'>Secondary Values</a><date class='date'>{{ '2009-11-06' | date('F Y') }}</date></li></ul>{% endblock %}

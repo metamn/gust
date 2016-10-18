@@ -1,1 +1,0 @@
-{% set title='perversion' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}perversion' title='Perversion'>Perversion</a><date class='date'>{{ '2013-06-21' | date('F Y') }}</date></li></ul>{% endblock %}

@@ -1,0 +1,17 @@
+@mixin people {
+  flex-basis: auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  .trigger {
+    @include trigger;
+  }
+
+  .ul {
+    @include ul--toc;
+  }
+
+  .person {
+    @include person;
+  }
+}

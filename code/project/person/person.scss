@@ -1,0 +1,26 @@
+@mixin person {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include text-style(body-text);
+  @include text-style(article-body-text);
+
+  .card__trigger,
+  h3 {
+    display: none;
+  }
+
+
+  .card {
+    @include card;
+    @include card--active;
+  }
+
+  &__quote {
+    @include person__quote;
+  }
+
+  &__link {
+    @include person__link;
+  }
+}

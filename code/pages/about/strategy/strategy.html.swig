@@ -1,1 +1,0 @@
-{% set title='strategy' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}tactics' title='Tactics'>Tactics</a><date class='date'>{{ '2010-12-22' | date('F Y') }}</date></li></ul>{% endblock %}

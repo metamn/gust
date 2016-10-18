@@ -25,20 +25,23 @@ html {
 
     .article,
     .articles .ul,
-    .tags .ul {
+    .tags .ul,
+    .people .ul {
       @include section-border;
     }
 
     .prevnext,
     .meta,
     .articles,
-    .tags {
+    .tags,
+    .people {
       @include text-style(body-text);
       max-width: none;
     }
 
     .articles,
-    .tags {
+    .tags,
+    .people {
       margin: $lem 0;
     }
 
@@ -60,6 +63,10 @@ html {
 
     .tags {
       @include tags;
+    }
+
+    .people {
+      @include people;
     }
 
     .footer {

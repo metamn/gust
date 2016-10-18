@@ -1,1 +1,0 @@
-{% set title='Paul Virilio' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}from-real-to-digital' title='From Real To Digital?'>From Real To Digital?</a><date class='date'>{{ '2009-09-07' | date('F Y') }}</date></li></ul>{% endblock %}

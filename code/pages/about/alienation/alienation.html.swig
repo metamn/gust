@@ -1,1 +1,0 @@
-{% set title='alienation' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}digital-samsara' title='Digital Samsara'>Digital Samsara</a><date class='date'>{{ '2011-12-10' | date('F Y') }}</date></li></ul>{% endblock %}

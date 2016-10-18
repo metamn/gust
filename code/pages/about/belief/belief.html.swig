@@ -1,1 +1,0 @@
-{% set title='belief' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}belief' title='Belief'>Belief</a><date class='date'>{{ '2012-06-03' | date('F Y') }}</date></li></ul>{% endblock %}
