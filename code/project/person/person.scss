@@ -22,4 +22,6 @@
     @include person__details;
     width: 50%;
   }
+
+  @include person--portrait;
 }

@@ -1,0 +1,13 @@
+@mixin person--portrait {
+  @include portrait {
+    .figure,
+    .person__details {
+      width: auto;
+    }
+
+    .blockquote {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+}

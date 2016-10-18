@@ -1,0 +1,6 @@
+@mixin blockquote--portrait {
+  @include portrait {
+    background: none;
+    border-top: 1px solid;
+  }
+}
