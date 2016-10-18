@@ -3,16 +3,19 @@
   display: flex;
   flex-wrap: wrap;
 
-  .trigger {
-    @include trigger;
-  }
-
   .ul {
-    @include ul--toc;
+    list-style: none;
+    margin: 0;
 
     .li {
-      border-bottom: 1px solid;
+      + .li {
+        margin-top: 15vh;
+      }
     }
+  }
+
+  .trigger {
+    @include trigger;
   }
 
   .person {

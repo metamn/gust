@@ -1,7 +1,0 @@
-@mixin person__quote {
-  align-self: flex-end;
-
-  .blockquote {
-    @include blockquote;
-  }
-}

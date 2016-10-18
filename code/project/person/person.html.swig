@@ -1,12 +1,8 @@
 <article class="person">
-  <h3>Person</h3>
-
-  {% if person.quote %}
-    {% include "__quote/person__quote.html.swig" %}
-  {% endif %}
+  <h3 class="person__name">{{ person.title }}</h3>
 
   {% set image = person %}
-  {% include '../card/card.html.swig' %}
+  {% include '../../framework/structure/figure/figure.html.swig' %}
 
-  {% include "__link/person__link.html.swig" %}
+  {% include "__details/person__details.html.swig" %}
 </article>

@@ -1,0 +1,23 @@
+@mixin person__details {
+  display: flex;
+  flex-direction: column;
+
+  .bio {
+    .arrow-with-triangle {
+      @include arrow-with-triangle;
+      margin-top: $lem;
+    }
+
+    .text {
+      display: flex;
+      margin-left: $lem * 3;
+      margin-bottom: $lem;
+    }
+  }
+
+  @include blockquote;
+
+  .link {
+    @include link(black-on-white, black-on-white, black-on-white, black-on-white);
+  }
+}

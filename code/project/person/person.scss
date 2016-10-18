@@ -1,31 +1,25 @@
 @mixin person {
-  flex-basis: auto !important;
   display: flex;
   flex-wrap: wrap;
 
-  .card__trigger {
-    display: none;
+  &__name {
+    display: flex;
+    padding: $lem / 4 0;
+
+    @include text-style(title);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAEklEQVQYlWNgYGD4TyQeBfQEABtTCfcAjTxiAAAAAElFTkSuQmCC);
   }
 
-  .card {
-    @include card;
-    @include card--active;
-
-    &__title {
-      @include text-style(title);
-    }
-
-    .figcaption {
-      padding: $lem;
-      font-size: larger;
-    }
+  .figure {
+    @include figure;
+    width: 50%;
+    line-height: 1;
+    padding: $lem;
+    box-sizing: border-box;
   }
 
-  &__quote {
-    @include person__quote;
-  }
-
-  &__link {
-    @include person__link;
+  &__details {
+    @include person__details;
+    width: 50%;
   }
 }
