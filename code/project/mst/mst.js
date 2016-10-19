@@ -34,18 +34,18 @@ var snap = function(id, width, height) {
     'Association',
     'Thought',
     'Culture',
-    'This metasystem transformation'
+    'The current metasystem transformation'
   ];
 
   // - the radius of the sense point
-  var radiusSensePoint = 10;
+  var radiusSensePoint = 20;
 
   // - axis arrow size
-  var arrowSize = 10;
+  var arrowSize = 20;
 
   // - axis legend
   var axisLegend = [
-    'Time',
+    'Control',
     'Senses'
   ]
 
@@ -80,9 +80,10 @@ var snap = function(id, width, height) {
 
     // Move up the first circle
     if (i == points - 1) {
-      x = radiusSensePoint;
+      x += radiusSensePoint / 2;
       y -= radiusSensePoint / 2;
     }
+
 
     // Class names
     var titleConverted = convertToClassName(senses[points - i - 1]);
@@ -95,16 +96,22 @@ var snap = function(id, width, height) {
       class: classPoint
     });
 
-    // Add text to sense points
-    senseTitles[i] = paper.text(x + (radiusSensePoint * 2), y, senses[points - i - 1]).attr({
-      class: classTitle
-    });
-
     // Draw sense circles
     // - radius is calculated with the Pitagoras theorem
     var radiusCircle = Math.sqrt(Math.pow(x, 2) + Math.pow((height-y), 2));
     senseCircles[i] = paper.circle(0, height, radiusCircle).attr({
       class: classCircle
+    });
+
+    // Move left the last text
+    if (i == 0) {
+      x = x / 2;
+      y -= radiusSensePoint * 1.5;
+    }
+
+    // Add text to sense points
+    senseTitles[i] = paper.text(x + (radiusSensePoint * 2), y, senses[points - i - 1]).attr({
+      class: classTitle
     });
   }
 
@@ -128,7 +135,7 @@ var snap = function(id, width, height) {
 
   // - the legend
   // Add text to sense points
-  axisLegendX = paper.text(width - 50, height - arrowSize - 10, axisLegend[1]).attr({
+  axisLegendX = paper.text(width - 100, height - arrowSize - 10, axisLegend[1]).attr({
     class: 'axis__legend axis__legend--x'
   });
 
