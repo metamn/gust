@@ -9,8 +9,6 @@ var convertToClassName = function(s) {
 
 
 
-
-
 // Draw the SVG
 var snap = function(id, width, height) {
 
@@ -150,9 +148,4 @@ var snap = function(id, width, height) {
   });
 }
 
-// Document.ready ....
-window.onload = function() {
-  snap('.svg--landscape', 1920, 1080);
-  snap('.svg--portrait', 768, 1024);
-  snap('.svg--mobile', 360, 640);
-};
+module.exports = snap;
