@@ -1,0 +1,34 @@
+@mixin mst__svg--responsive {
+  @include landscape {
+    .svg--landscape {
+      display: flex;
+    }
+
+    .svg--portrait,
+    .svg--mobile {
+      display: none;
+    }
+  }
+
+  @include portrait {
+    .svg--landscape,
+    .svg--mobile {
+      display: none;
+    }
+
+    .svg--portrait {
+      display: flex;
+    }
+  }
+
+  @include mobile {
+    .svg--landscape,
+    .svg--portrait {
+      display: none;
+    }
+
+    .svg--mobile {
+      display: flex;
+    }
+  }
+}

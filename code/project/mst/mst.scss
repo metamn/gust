@@ -2,79 +2,15 @@
   flex-basis: 100%;
   margin-right: 0;
 
-  svg {
-    width: 100%;
-    height: 100%;
-
-    stroke: #f1f1f1;
-    fill: #f1f1f1;
-
-    .ruler {
-      stroke: #f9f9f9;
-      fill: #f1f1f1;
-    }
-
-    .axis {
-      stroke: #333;
-      stroke-width: 2;
-    }
-
-    .sense__circle {
-      fill: transparent;
-    }
-
-    .sense__title,
-    .axis__legend {
-      @include text-style(body-text);
-      stroke-width: 0; /* Otherwise it is blurry */
-      fill: black;
-    }
-
-    .axis__legend {
-      fill: red;
-    }
+  &__svg {
+    @include mst__svg;
   }
 
-
-  @include landscape {
-    .svg--landscape {
-      display: flex;
-    }
-
-    .svg--portrait,
-    .svg--mobile {
-      display: none;
-    }
+  &__text {
+    @include mst__text;
   }
 
-  @include portrait {
-    .svg--landscape,
-    .svg--mobile {
-      display: none;
-    }
-
-    .svg--portrait {
-      display: flex;
-    }
-  }
-
-  @include mobile {
-    .svg--landscape,
-    .svg--portrait {
-      display: none;
-    }
-
-    .svg--mobile {
-      display: flex;
-    }
-  }
-
-
-
-  /* Responsive
-  */
-
-  svg {
-
+  &--inactive {
+    @include mst--inactive;
   }
 }

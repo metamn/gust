@@ -14,6 +14,11 @@
       "name": "gray",
       "value": "#999",
       "description": "Secondary color"
+    },
+    {
+      "name": "lightgray",
+      "value": "#ccc",
+      "description": "Secondary color"
     }
   ],
   "color_pairs": [

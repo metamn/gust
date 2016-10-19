@@ -1,18 +1,6 @@
 <section class="mst">
   <h3>Metasystem transformation</h3>
 
-  <svg class="svg--landscape">
-    <!-- JS will generate the code here -->
-  </svg>
-
-  <svg class="svg--portrait">
-    <!-- JS will generate the code here -->
-  </svg>
-
-  <svg class="svg--mobile">
-    <!-- JS will generate the code here -->
-  </svg>
-
-  <!-- if put in head the svg object will be null -->
-  <script src="{{ site.url }}{{ site.scripts }}snap.svg-min.js"></script>
+  {% include "__svg/mst__svg.html.swig" %}
+  {% include "__text/mst__text.html.swig" %}
 </section>

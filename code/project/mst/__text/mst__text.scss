@@ -1,0 +1,6 @@
+@mixin mst__text {
+  p {
+    @include text-style(body-text);
+    padding: $lem;
+  }
+}

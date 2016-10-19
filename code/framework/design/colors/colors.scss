@@ -15,6 +15,9 @@ $black: #000;
 // Secondary color
 $gray: #999;
 
+// Secondary color
+$lightgray: #ccc;
+
 
 // Color combinations. Colors are not used standalone but in pairs
 @mixin colors($name) {
@@ -51,6 +54,10 @@ $gray: #999;
 
 .gray {
   background: #999;
+};
+
+.lightgray {
+  background: #ccc;
 };
 
 
