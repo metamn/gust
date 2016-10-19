@@ -1,0 +1,78 @@
+@mixin mst {
+  /* Colors
+*/
+svg {
+  stroke: #f1f1f1;
+  fill: #f1f1f1;
+}
+
+
+.ruler {
+  stroke: #f9f9f9;
+  fill: #f1f1f1;
+}
+
+.axis {
+  stroke: #333;
+}
+
+.sense__circle {
+  fill: transparent;
+}
+
+.sense__title,
+.axis__legend {
+  stroke-width: 0; /* Otherwise it is blurry */
+
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  fill: black;
+}
+
+
+/* Breakpoints
+*/
+
+@media (orientation: landscape) {
+  .svg--landscape {
+    display: flex;
+  }
+
+  .svg--portrait,
+  .svg--mobile {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) {
+  .svg--landscape,
+  .svg--mobile {
+    display: none;
+  }
+
+  .svg--portrait {
+    display: flex;
+  }
+}
+
+@media (max-width: 767px) {
+  .svg--landscape,
+  .svg--portrait {
+    display: none;
+  }
+
+  .svg--mobile {
+    display: flex;
+  }
+}
+
+
+
+/* Responsive
+*/
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+}

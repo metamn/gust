@@ -19,3 +19,7 @@
     A new perception about ourselves built bottom up, by a new generation, on new values.
   </p>
 {% endblock %}
+
+{% block mst %}
+  {% include "../../project/mst/mst.html.swig" %}
+{% endblock %}
