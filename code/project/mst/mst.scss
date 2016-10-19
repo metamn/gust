@@ -16,6 +16,7 @@
 
     .axis {
       stroke: #333;
+      stroke-width: 2;
     }
 
     .sense__circle {
@@ -25,9 +26,12 @@
     .sense__title,
     .axis__legend {
       @include text-style(body-text);
-      
       stroke-width: 0; /* Otherwise it is blurry */
       fill: black;
+    }
+
+    .axis__legend {
+      fill: red;
     }
   }
 

@@ -120,8 +120,8 @@ var snap = function(id, width, height) {
   // Draw the axes
 
   // - the arrow marker
-  var arrow = paper.path("M2,2 L2,11 L10,6 L2,2").attr({fill: '#000'});
-  var marker = arrow.marker(0, 0, arrowSize, arrowSize, 2, 6);
+  var arrow = paper.path("M0,0 L0,6 L9,3 z").attr({fill: '#000'});
+  var marker = arrow.marker(0, 0, arrowSize, arrowSize, 0, 3);
 
   var axisX = paper.path("M" + (arrowSize / 2) + "," + (height - arrowSize / 2) + "H" + (width - arrowSize)).attr({
     class: "axis axis--x",
@@ -135,7 +135,7 @@ var snap = function(id, width, height) {
 
   // - the legend
   // Add text to sense points
-  axisLegendX = paper.text(width - 100, height - arrowSize - 10, axisLegend[1]).attr({
+  axisLegendX = paper.text(width - 120, height - arrowSize - 10, axisLegend[1]).attr({
     class: 'axis__legend axis__legend--x'
   });
 
