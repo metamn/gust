@@ -16,23 +16,39 @@ var mstClick = function() {
     'the-current-metasystem-transition-a-new-sense'
   ];
 
+  var senses2 = [
+    'position',
+    'movement',
+    'irritability',
+    'reflexes',
+    'associating',
+    'thinking',
+    'culture',
+    'what is happening now'
+  ];
+
   var sensePoints = select('.mst .sense__point');
   click(sensePoints, clickPoint);
 
   function clickPoint(item) {
+    // Get the element right
     // http://stackoverflow.com/questions/9275695/read-attributes-of-svg-elements-in-html-via-js
     var el = (item.correspondingUseElement) ? item.correspondingUseElement: item;
 
+    // Get the element class list
     // sense__point sense__point--reflex
     var classList = el.getAttribute('class');
 
+    // Get the element descriptor class
     // reflex
-    var klass = classList.split("--")[1];
+    var descriptor = classList.split("--")[1];
 
+    // Get the element index from the Senses array
     // 3
-    var index = senses.indexOf(klass);
+    var index = senses.indexOf(descriptor);
 
-    console.log('Control of ' + klass + ' = ' + senses[index + 1]);
+    // Display like Turchin
+    console.log('Control of ' + senses2[index] + ' = ' + senses2[index + 1]);
   }
 }
 
