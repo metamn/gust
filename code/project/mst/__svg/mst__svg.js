@@ -32,7 +32,7 @@ var snap = function(id, width, height) {
     'Association',
     'Thought',
     'Culture',
-    'The current metasystem transition / A new sense'
+    '???'
   ];
 
   // - the radius of the sense point
@@ -83,7 +83,6 @@ var snap = function(id, width, height) {
       y -= radiusSensePoint / 2;
     }
 
-
     // Class names
     var titleConverted = convertToClassName(senses[points - i - 1]);
     var classPoint = "sense__point sense__point--" + titleConverted;
@@ -101,17 +100,6 @@ var snap = function(id, width, height) {
     sensePoints[i] = paper.circle(x, y, radiusSensePoint).attr({
       class: classPoint
     });
-
-    // Move left the last text
-    if (i == 0) {
-      x = x / 2;
-      y -= radiusSensePoint * 1.5;
-    }
-
-    // Move up the first text
-    if (i == points - 1) {
-      y -= arrowSize;
-    }
 
     // Add text to sense points
     senseTitles[i] = paper.text(x + (radiusSensePoint * 2), y, senses[points - i - 1]).attr({
@@ -139,7 +127,7 @@ var snap = function(id, width, height) {
 
   // - the legend
   // Add text to sense points
-  axisLegendX = paper.text(width - 120, height - arrowSize - 10, axisLegend[1]).attr({
+  axisLegendX = paper.text(width - 130, height - arrowSize - 10, axisLegend[1]).attr({
     class: 'axis__legend axis__legend--x'
   });
 
