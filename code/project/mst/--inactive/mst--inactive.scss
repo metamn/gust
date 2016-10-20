@@ -1,0 +1,11 @@
+@mixin mst--inactive {
+  position: absolute;
+  width: $lem * 8;
+
+  top: 90vh;
+  right: calc(50% - #{$lem * 3});
+
+  cursor: pointer;
+
+  @include transition(all);
+}

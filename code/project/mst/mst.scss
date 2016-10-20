@@ -3,7 +3,11 @@
     @include mst__svg;
   }
 
-  &--small {
-    @include mst--small;
+  &--inactive {
+    @include mst--inactive;
+  }
+
+  &--active {
+    @include mst--active;
   }
 }

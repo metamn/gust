@@ -1,0 +1,10 @@
+@mixin mst--active {
+  flex-basis: auto;
+  margin: $lem auto;
+  position: relative;
+
+  width: 70%;
+  @include portrait {
+    width: calc(100% - #{$lem});
+  }
+}

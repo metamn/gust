@@ -1,6 +1,0 @@
-@mixin mst--small {
-  position: absolute;
-  bottom: - $lem * 3;
-  width: $lem * 8;
-  right: calc(50% - #{$lem * 3});
-}
