@@ -1,0 +1,6 @@
+@mixin mst__svg--mobile {
+  @include mobile {
+    padding: $lem / 4;
+    box-shadow: $lem / 4 $lem / 4 $black;
+  }
+}

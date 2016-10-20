@@ -1,0 +1,8 @@
+@mixin mst--mobile {
+  @include mobile {
+    position: relative;
+    top: -10vh;
+    right: auto;
+    width: calc(100% - #{$lem / 4)};
+  }
+}

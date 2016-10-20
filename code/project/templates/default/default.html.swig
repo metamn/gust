@@ -11,13 +11,11 @@
 
   {% block mst %}{% endblock %}
 
-  {#
   {% include '../../prevnext/prevnext.html.swig' %}
   {% include '../../meta/meta.html.swig' %}
   {% include '../../articles/articles.html.swig' %}
   {% include '../../tags/tags.html.swig' %}
   {% include '../../people/people.html.swig' %}
-  #}
 </div>
 
 {% include '../../footer/footer.html.swig' %}

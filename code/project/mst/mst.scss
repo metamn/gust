@@ -10,4 +10,6 @@
   &--active {
     @include mst--active;
   }
+
+  @include mst--mobile;
 }

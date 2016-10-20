@@ -1,10 +1,11 @@
 @mixin mst__svg {
-  @include mst__svg--responsive;
-
   padding: $lem;
   border: 1px solid;
   box-shadow: $lem $lem $black;
   box-sizing: border-box;
+
+  @include mst__svg--responsive;
+  @include mst__svg--mobile;
 
   svg {
     width: 100%;
