@@ -5,13 +5,11 @@
   &__name {
     display: flex;
     padding: $lem / 4 0;
-
-    @include text-style(title);
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAEklEQVQYlWNgYGD4TyQeBfQEABtTCfcAjTxiAAAAAElFTkSuQmCC);
   }
 
   .figure {
     @include figure;
+    @include border(normal, all);
     width: 50%;
     line-height: 1;
     padding: $lem;

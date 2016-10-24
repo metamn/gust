@@ -6,6 +6,7 @@
     .arrow-with-triangle {
       @include arrow-with-triangle;
       margin-top: $lem;
+      display: none;
     }
 
     .text {
