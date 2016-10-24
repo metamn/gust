@@ -3,12 +3,6 @@
   flex-direction: column;
 
   .bio {
-    .arrow-with-triangle {
-      @include arrow-with-triangle;
-      margin-top: $lem;
-      display: none;
-    }
-
     .text {
       display: flex;
       margin-left: $lem * 3;

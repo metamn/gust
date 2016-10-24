@@ -3,6 +3,7 @@
 {% set date = article.date %}
 {% set url = article.url %}
 {% set categories = article.categories %}
+
 {% extends '../../project/templates/default/default.html.swig' %}
 
 {% block content %}

@@ -15,6 +15,7 @@
       "extension": ".jpg",
       "title": "Dostoevsky",
       "figcaption": "Genial insights into human mind, heart and spirit",
+      "quote": "we never had any caprice or will of our own",
       "class": "person"
     },
     {
@@ -22,6 +23,7 @@
       "extension": ".jpg",
       "title": "Albert Laszlo Barabasi",
       "figcaption": "Like Betrand Russell for the XXth, perhaps he knows the essence of this century.",
+      "quote": "think yourself as a dreaming robot on autopilot",
       "class": "person"
     }
   ],

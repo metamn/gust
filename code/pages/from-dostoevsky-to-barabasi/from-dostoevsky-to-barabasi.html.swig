@@ -6,7 +6,7 @@ Science itself will teach man (though to my mind it’s a superfluous luxury) th
 <p><strong>1864, Moscow</strong></p>
 
 <blockquote>
-Think yourself as a dreaming robot on autopilot and you will be closer to the truth.
+  Think yourself as a dreaming robot on autopilot and you will be closer to the truth.
 </blockquote>
 
 <p><strong>2010, Boston</strong></p>

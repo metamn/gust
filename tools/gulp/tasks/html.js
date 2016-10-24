@@ -12,7 +12,8 @@ var gulp = require('gulp'),
 
     gulpIgnore = require('gulp-ignore'),
     rename = require('gulp-rename'),
-    minifyHTML = require('gulp-minify-html');
+    minifyHTML = require('gulp-minify-html'),
+    once = require('gulp-once');
 
 
 // Configuration
@@ -23,6 +24,7 @@ var paths = require('./../config');
 var html = function(source, dest) {
   return gulp.src(source)
     .pipe(plumber({errorHandler: onError}))
+    .pipe(once())
 
     // Do not copy BEM modifiers and elements
     .pipe(gulpIgnore.exclude(function(file) {
