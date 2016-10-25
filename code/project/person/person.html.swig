@@ -4,5 +4,11 @@
   {% set image = person %}
   {% include '../../framework/structure/figure/figure.html.swig' %}
 
+  {% if person.quote %}
+    <blockquote class="blockquote">
+      {{ person.quote }}
+    </blockquote>
+  {% endif %}
+
   {% include "__details/person__details.html.swig" %}
 </article>

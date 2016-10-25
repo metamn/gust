@@ -1,18 +1,19 @@
 @mixin person__details {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 
   .bio {
-    .text {
-      display: flex;
-      margin-left: $lem * 3;
-      margin-bottom: $lem;
-    }
-  }
+    margin-left: $lem * 3;
+    margin-bottom: $lem;
+    max-width: 15em;
+    padding: $lem;
 
-  @include blockquote;
+    @include border(normal, all);
+    border-top: transparent;
+  }
 
   .link {
     @include link(black-on-white, black-on-white, black-on-white, black-on-white);
+    margin-left: $lem;
   }
 }

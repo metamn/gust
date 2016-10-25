@@ -16,9 +16,16 @@
     box-sizing: border-box;
   }
 
+  .blockquote {
+    @include circle($lem * 8);
+    @include border(normal, all);
+
+    text-align: center;
+    align-self: center;
+  }
+
   &__details {
     @include person__details;
-    width: 50%;
   }
 
   @include person--portrait;

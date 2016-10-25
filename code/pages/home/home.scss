@@ -10,10 +10,6 @@ html {
       .article__title {
         display: none;
       }
-
-      .mst {
-        @include mst;
-      }
     }
   }
 }

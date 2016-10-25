@@ -22,8 +22,7 @@ var gulp = require('gulp'),
     fs = require('fs'),
     path = require('path'),
     onError = require('../utils/onError'),
-    getJSONData = require('../utils/getJSONData'),
-    once = require('gulp-once');
+    getJSONData = require('../utils/getJSONData');
 
 
 // Configuration
@@ -34,8 +33,7 @@ var paths = require('./../config');
 var _swig = function(source, dest, config, grabJSON) {
   return gulp.src(source)
     .pipe(plumber({errorHandler: onError}))
-    .pipe(once())
-
+    
     // load JSONs
     .pipe(data(getJSONData))
     .pipe(swig({

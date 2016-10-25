@@ -3,7 +3,6 @@
 {% set date = article.date %}
 {% set url = article.url %}
 {% set categories = article.categories %}
-
 {% extends '../../project/templates/default/default.html.swig' %}
 
 {% block content %}
@@ -19,8 +18,4 @@
   <p>
     A new perception about ourselves built bottom up, by a new generation, on new values.
   </p>
-{% endblock %}
-
-{% block mst %}
-  {% include "../../project/mst/mst.html.swig" %}
 {% endblock %}
