@@ -4,7 +4,7 @@ The most boring lifeline belongs to politicians and whom they rule.
 <br/>
 Second are engineers with a constant march to the unwanted.
 <br/>
-The best might be for entrepreneurs or whoever goes for the ride.
+The best might be for entrepreneurs, artists, athletes or whoever goes for the ride.
 </p>
 
 <p class="notice">

@@ -6,11 +6,21 @@
     "society",
     "power",
     "control",
-    "self"
+    "self",
+    "Adam Curtis"
   ],
   "senses": [
     "evolution"
   ],
   "url": "science-society-and-control-the-structure-of-evolution",
-  "date": "2009-10-14"
+  "date": "2009-10-14",
+  "people": [
+    {
+      "name": "adam-curtis",
+      "extension": ".jpg",
+      "title": "Adam Curtis",
+      "figcaption": "Power and how it works in society",
+      "class": "person"
+    }
+  ]
 }

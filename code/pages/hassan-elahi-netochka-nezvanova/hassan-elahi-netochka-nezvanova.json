@@ -11,5 +11,15 @@
     "privacy"
   ],
   "url": "hassan-elahi-netochka-nezvanova",
-  "date": "2009-12-04"
+  "date": "2009-12-04",
+  "people": [
+    {
+      "name": "hasan-elahi",
+      "extension": ".jpg",
+      "title": "Hasan Elahi",
+      "figcaption": "The 0.00001%",
+      "class": "person",
+      "quote": "There are no requirements"
+    }
+  ]
 }
