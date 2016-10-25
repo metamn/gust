@@ -4,5 +4,7 @@
     top: -10vh;
     right: auto;
     width: calc(100% - #{$lem / 4)};
+
+    @include mst--with-title;
   }
 }

@@ -1,0 +1,7 @@
+@mixin mst--with-title {
+  h3,
+  &__title {
+    display: flex;
+    justify-content: center;
+  }
+}

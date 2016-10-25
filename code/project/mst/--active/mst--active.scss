@@ -7,4 +7,6 @@
   @include portrait {
     width: calc(100% - #{$lem});
   }
+
+  @include mst--with-title;
 }
