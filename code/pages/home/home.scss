@@ -7,8 +7,35 @@
 html {
   &.gust {
     body {
-      .article__title {
-        display: none;
+      .container {
+        .article__title {
+          display: none;
+        }
+
+        .mst {
+          @include mst;
+        }
+
+        // reorder
+        > * {
+          order: 6;
+        }
+
+        .article {
+          order: 1;
+        }
+
+        @include mobile-and-up {
+          .prevnext {
+            order: 2;
+          }
+
+          .mst {
+            &--active {
+              top: -$lem * 3;
+            }
+          }
+        }
       }
     }
   }
