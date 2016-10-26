@@ -35,6 +35,18 @@ var snap = function(id, width, height) {
     '???'
   ];
 
+  // - the transitions
+  var transitions = [
+    'Control of Position = Motion',
+    'Control of Motion = Irritability',
+    'Control of Irritability = Reflex',
+    'Control of Reflex = Association',
+    'Control of Association = Thinking',
+    'Control of Thinking = Culture',
+    'Control of Culture = The next transition',
+    'Nobody knows what will happen there'
+    ];
+
   // - the radius of the sense point
   var radiusSensePoint = 20;
 
@@ -66,12 +78,19 @@ var snap = function(id, width, height) {
   });
 
 
-
   // Draw sense points and circles at the intersection of rulers with diagonal
   var sensePoints = [];
   var senseCircles = [];
   var senseTitles = [];
+  var senseDescriptions = [];
 
+  // Black background
+  // - http://stackoverflow.com/questions/31010029/svg-draw-text-with-solid-background-color
+  var bbf = '<filter x="0" y="0" width="1" height="1" id="bbf"><feFlood flood-color="black"/><feComposite in="SourceGraphic"/></filter>';
+  paper.append(Snap.parse(bbf));
+  var blackBackgroundFiler = Snap('#bbf');
+
+  // Loop and draw
   for (var i = 0; i < points; i++ ) {
     var intersection = Snap.path.intersection(diagonal, rulers[i]);
     var x = intersection[0].x;
@@ -88,6 +107,7 @@ var snap = function(id, width, height) {
     var classPoint = "sense__point sense__point--" + titleConverted;
     var classCircle = "sense__circle sense__circle--" + titleConverted;
     var classTitle = "sense__title sense__title--" + titleConverted;
+    var descriptionTitle = "sense__description";
 
     // Draw sense circles
     // - radius is calculated with the Pitagoras theorem
@@ -99,6 +119,12 @@ var snap = function(id, width, height) {
     // Draw sense points
     sensePoints[i] = paper.circle(x, y, radiusSensePoint).attr({
       class: classPoint
+    });
+
+    // Add hover to sense points
+    senseDescriptions[i] = paper.text(arrowSize, y - (radiusSensePoint * 2.5), transitions[points - i - 1]).attr({
+      class: descriptionTitle,
+      filter: blackBackgroundFiler
     });
 
     // Add text to sense points

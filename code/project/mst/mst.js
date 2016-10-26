@@ -1,5 +1,4 @@
 var snap = require('./__svg/mst__svg.js');
-var mstSVGClick = require('./__svg/--click/mst__svg--click.js');
 var mstClick = require('./--click/mst--click.js');
 
 
@@ -11,6 +10,5 @@ window.onload = function() {
 
   if (document.querySelector('.mst')) {
     mstClick();
-    mstSVGClick();
   }
 };

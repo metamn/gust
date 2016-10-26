@@ -19,15 +19,35 @@
       stroke-width: 2;
     }
 
+    .sense__description {
+      @include scale(large-3);
+      stroke-width: 0; /* Otherwise it is blurry */
+      fill: $white;
+
+      @include transition(all);
+      display: none;
+    }
+
     .sense__point {
       stroke: $gray;
       fill: $gray;
       cursor: pointer;
+
+      @include transition(all);
+      &:hover {
+        stroke: $black;
+        fill: $black;
+
+        + .sense__description {
+          display: flex;
+        }
+      }
     }
 
     .sense__circle {
       fill: transparent;
     }
+
 
     .sense__title,
     .axis__legend {
