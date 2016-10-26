@@ -60,6 +60,32 @@ var snap = function(id, width, height) {
   ]
 
 
+  // Draw the axes
+
+  // - the arrow marker
+  var arrow = paper.path("M0,0 L0,6 L9,3 z").attr({fill: '#000'});
+  var marker = arrow.marker(0, 0, arrowSize, arrowSize, 0, 3);
+
+  var axisX = paper.path("M" + (arrowSize / 2) + "," + (height - arrowSize / 2) + "H" + (width - arrowSize)).attr({
+    class: "axis axis--x",
+    markerEnd: marker
+  });
+
+  var axisY = paper.path("M" + (arrowSize / 2) + "," + (height - arrowSize / 2) + "V" + arrowSize).attr({
+    class: "axis axis--y",
+    markerEnd: marker
+  });
+
+  // - the legend
+  // Add text to sense points
+  axisLegendX = paper.text(width - 130, height - arrowSize - 10, axisLegend[1]).attr({
+    class: 'axis__legend axis__legend--x'
+  });
+
+  axisLegendY = paper.text(arrowSize + 10, arrowSize + 10, axisLegend[0]).attr({
+    class: 'axis__legend axis__legend--y'
+  });
+
 
   // Draw the vertical rulers
   var rulers = [];
@@ -89,6 +115,24 @@ var snap = function(id, width, height) {
   var bbf = '<filter x="0" y="0" width="1" height="1" id="bbf"><feFlood flood-color="black"/><feComposite in="SourceGraphic"/></filter>';
   paper.append(Snap.parse(bbf));
   var blackBackgroundFiler = Snap('#bbf');
+
+  // Glow a sense point
+  function glow(point) {
+    point.animate(
+      {
+        r: 1
+      },
+      220,
+      function() {
+        point.animate(
+          {
+            r: radiusSensePoint
+          },
+          300
+        );
+      }
+    );
+  }
 
   // Loop and draw
   for (var i = 0; i < points; i++ ) {
@@ -131,35 +175,10 @@ var snap = function(id, width, height) {
     senseTitles[i] = paper.text(x + (radiusSensePoint * 2), y, senses[points - i - 1]).attr({
       class: classTitle
     });
+
+    // Animate sense points
+    setInterval(glow(sensePoints[i]), 1000);
   }
-
-
-
-  // Draw the axes
-
-  // - the arrow marker
-  var arrow = paper.path("M0,0 L0,6 L9,3 z").attr({fill: '#000'});
-  var marker = arrow.marker(0, 0, arrowSize, arrowSize, 0, 3);
-
-  var axisX = paper.path("M" + (arrowSize / 2) + "," + (height - arrowSize / 2) + "H" + (width - arrowSize)).attr({
-    class: "axis axis--x",
-    markerEnd: marker
-  });
-
-  var axisY = paper.path("M" + (arrowSize / 2) + "," + (height - arrowSize / 2) + "V" + arrowSize).attr({
-    class: "axis axis--y",
-    markerEnd: marker
-  });
-
-  // - the legend
-  // Add text to sense points
-  axisLegendX = paper.text(width - 130, height - arrowSize - 10, axisLegend[1]).attr({
-    class: 'axis__legend axis__legend--x'
-  });
-
-  axisLegendY = paper.text(arrowSize + 10, arrowSize + 10, axisLegend[0]).attr({
-    class: 'axis__legend axis__legend--y'
-  });
 }
 
 module.exports = snap;
