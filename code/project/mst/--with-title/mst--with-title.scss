@@ -1,7 +1,11 @@
 @mixin mst--with-title {
-  h3,
   &__title {
     display: flex;
     justify-content: center;
+
+    @include mobile {
+      order: 2;
+      margin-top: $lem / 2;
+    }
   }
 }

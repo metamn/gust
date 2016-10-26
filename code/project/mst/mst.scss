@@ -1,4 +1,7 @@
 @mixin mst {
+  display: flex;
+  flex-direction: column;
+
   &__svg {
     @include mst__svg;
   }
@@ -11,5 +14,6 @@
     @include mst--active;
   }
 
+  @include mst--with-title;
   @include mst--mobile;
 }
