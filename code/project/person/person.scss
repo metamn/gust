@@ -10,10 +10,15 @@
   .figure {
     @include figure;
     @include border(normal, all);
+
     width: 50%;
     line-height: 1;
     padding: $lem;
     box-sizing: border-box;
+
+    .picture {
+      width: 100%;
+    }
   }
 
   .blockquote {

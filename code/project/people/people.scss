@@ -1,5 +1,5 @@
 @mixin people {
-  flex-basis: auto;
+  flex-basis: 100% !important;
   display: flex;
   flex-wrap: wrap;
 

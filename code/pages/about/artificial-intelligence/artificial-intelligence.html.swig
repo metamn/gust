@@ -1,0 +1,1 @@
+{% set title='artificial intelligence' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<nav class='articles'><h3>Articles</h3></nav><ul class='ul'><li class='li'><a class='link' href='{{ site.url }}2016' title='2016'>2016</a><date class='date'>{{ '2016-12-18' | date('F Y') }}</date></li></ul></nav>{% endblock %}
