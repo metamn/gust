@@ -18,12 +18,12 @@
 </p>
 
 <p>
-  <strong>Technology</strong> through Artificial Intelligence and Big Data became the only holder of the thruth.
+  <strong>Technology</strong> &mdash; through Artificial Intelligence and Big Data &mdash; became the only holder of the thruth.
   No one outside Technology knows ever more what's true, what's real.
 </p>
 
 <p>
-  <strong>People</strong> became like plants and animals. We are no more special, we are just an item of the biosphere.
+  <strong>People</strong> became like plants and animals. We are no more special, we are just another item of the biosphere.
 </p>
 
 
@@ -35,8 +35,8 @@
 </p>
 
 <p>
-  Outside of the bubble it is interested only in miracles. Since we live the age of assymmetry there are plenty of miracles every day.
-  If there is a small bread for everyday that's good enough; The rest of its life is filled by the unseen-before-magic of the new circus.
+  Outside of the bubble it is interested only in miracles. Since we live the age of asymmetry there are plenty of miracles every day.
+  If there is a small bread for everyday that's good enough; The rest of its life is filled by the unseen-before-magic of this new circus.
 </p>
 
 
@@ -51,11 +51,44 @@
 </p>
 
 <p>
-  However we entered the information age where power, mass, speed &mdash; the classic, physical world and its rules &mdash; are no longer relevant.
+  However we entered the information age where power, mass, speed, energy, etc. &mdash; the classic, physical world and its rules &mdash; are no longer relevant.
 </p>
 
 <p>
-  What only matters are the law of information: the probability of events.
+  What only matters are the law of information: the probability of events. Who will know what will happen, who can leverage what will happen &mdash; will win.
 </p>
+
+<p>
+  If West will keep its huge advantage in Artificial Intelligence / Big Data, and, it will use in the benefit of people instead of exploiting people, then it will win.
+  If not, West is going to fall.
+</p>
+
+
+<h2>Art + Science</h2>
+
+<p>
+  Up until know we had some equilibrum: Progress (art + science) was immediately benefic for People, then gradually taken over by Power.
+</p>
+
+<p>
+  Now Art is left behind; the last genius &mdash; Basquiat &mdash; died before the new millenium. Since then nothing.
+  It takes too much time for man to realize what to do, how to disrupt.
+  And when a new revolution is finally on &mdash; the elite immediately takes over.
+</p>
+
+<p>
+  The energy of the mass can no longer be put in motion by art, only by power and politics.
+</p>
+
+<p>
+  Science lives a breakthrough these days; up until now they were experimenting on atoms, mice and chimps, now they do on us.
+</p>
+
+<p>
+  Since we are the subject of experiments the benefits cannot go back to us, they go up to a higher level, whatever that level might be.
+</p>
+
+
+
 
 {% endblock %}
