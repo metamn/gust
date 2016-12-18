@@ -89,6 +89,52 @@
 </p>
 
 
+<h2>In Ten Years</h2>
 
+<p>
+  Ten years ago I wrote:
+</p>
+
+<blockquote cite="{{ site.url }}/gust">
+  <p>
+    We are programmable biocomputers shaped by Culture.
+    A culture controlled by state and capital, soon by Technology.
+  </p>
+
+  <p>
+    This era could be about a new metasystem transition. For such a shift we need, first of all, new senses.
+  </p>
+
+  <p>
+    A new perception about ourselves built bottom up, by a new generation, on new values.
+  </p>
+</blockquote>
+
+<p>
+  Since then we've lost our sense of being human and we've lost the sense of reality.
+</p>
+
+<p>
+  Everything which helped us to progress either got weakened &mdash; Art &mdash; or got transformed &mdash; Science.
+</p>
+
+<p>
+  Culture become polarized.
+  There is the old one, from East which grows; and there is the new one, from West, based on Technology which is on losing by being trapped by profit.
+</p>
+
+<p>
+  The new generation pays attention only to themselves;
+  change is brought paradoxically by the good old people &mdash; Brexit, Trump &mdash; and it's not really a change, it's just a scream.
+</p>
+
+<p>
+  No wonder there were no new values born.
+</p>
+
+<p>
+  The only progress is in <a class="link" title="Neosensory" href="http://neosensory.com/">new senses</a>,
+  towards the technological metasystem transition.
+</p>
 
 {% endblock %}
