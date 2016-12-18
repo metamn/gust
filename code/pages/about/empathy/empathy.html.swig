@@ -1,1 +1,0 @@
-{% set title='empathy' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<nav class='articles'><h3>Articles</h3></nav><ul class='ul'><li class='li'><a class='link' href='{{ site.url }}switch' title='Switch'>Switch</a><date class='date'>{{ '2011-04-23' | date('F Y') }}</date></li></ul></nav>{% endblock %}

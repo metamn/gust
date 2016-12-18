@@ -1,1 +1,0 @@
-{% set title='aristocracy' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<nav class='articles'><h3>Articles</h3></nav><ul class='ul'><li class='li'><a class='link' href='{{ site.url }}beautify' title='Beautify'>Beautify</a><date class='date'>{{ '2011-01-28' | date('F Y') }}</date></li></ul></nav>{% endblock %}

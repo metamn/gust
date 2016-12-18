@@ -1,1 +1,0 @@
-{% set title='venture capital' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<ul class='ul'><li class='li'><a class='link' href='{{ site.url }}focus-reflection' title='Focus / Reflection'>Focus / Reflection</a><date class='article__date'>{{ '2010-05-12' | date('F Y') }}</date></li></ul>{% endblock %}

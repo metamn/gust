@@ -1,0 +1,26 @@
+html {
+  &.media {
+    body {
+      .container {
+        .article {
+          &__content {
+            .title {
+              display: flex;
+            }
+
+            .figure {
+              @include figure;
+              @include border(normal, all);
+              padding: $lem / 2;
+            }
+
+            @include mobile-and-up {
+              @include grid(2, $lem, 0);
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{% set title='Stephen Hawking' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<nav class='articles'><h3>Articles</h3></nav><ul class='ul'><li class='li'><a class='link' href='{{ site.url }}times' title='Times'>Times</a><date class='date'>{{ '2010-12-27' | date('F Y') }}</date></li></ul></nav>{% endblock %}

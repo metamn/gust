@@ -3,7 +3,7 @@
   margin: 0;
 
   .li {
-    @include grid(2, $lem, $lem, $has-title: 0);
+    @include grid(2, $lem, $lem, $grid-title: false);
     flex-wrap: nowrap;
     align-items: baseline;
 
