@@ -1,0 +1,1 @@
+{% set title='future' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<nav class='articles'><h3>Articles</h3></nav><ul class='ul'><li class='li'><a class='link' href='{{ site.url }}future' title='Future'>Future</a><date class='date'>{{ '2012-07-03' | date('F Y') }}</date></li></ul></nav>{% endblock %}

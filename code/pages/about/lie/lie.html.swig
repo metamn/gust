@@ -1,0 +1,1 @@
+{% set title='lie' %}{% set klass='archive' %}{% extends '../../../project/templates/default/default.html.swig' %}{% block content %}<nav class='articles'><h3>Articles</h3></nav><ul class='ul'><li class='li'><a class='link' href='{{ site.url }}freedom' title='Freedom'>Freedom</a><date class='date'>{{ '2010-01-28' | date('F Y') }}</date></li></ul></nav>{% endblock %}

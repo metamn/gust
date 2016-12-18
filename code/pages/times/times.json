@@ -1,0 +1,20 @@
+{
+  "categories": [
+    "time",
+    "simulacra",
+    "Stephen Hawking"
+  ],
+  "people": [
+    {
+      "name": "stephen-hawking",
+      "extension": ".jpg",
+      "title": "Stephen Hawking",
+      "figcaption": "A scientist adding an imaginary dimension to reality and saving the world, and us.",
+      "class": "person",
+      "quote": "The afterlife is a fairy tale"
+    }
+  ],
+  "url": "times",
+  "date": "2010-12-27",
+  "title": "Times"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Bukowski",
+  "categories": [
+    "life experience",
+    "brutalism",
+    "Charles Bukowski"
+  ],
+  "url": "bukowski",
+  "date": "2016-10-25",
+  "people": [
+    {
+      "name": "bukowski",
+      "extension": ".jpg",
+      "title": "Charles Bukowski",
+      "figcaption": "A brutalist",
+      "class": "person",
+      "quote": "Flip the coin"
+    }
+  ]
+}
