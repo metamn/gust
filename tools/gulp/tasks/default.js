@@ -10,18 +10,16 @@
 //
 // Styleguide default
 
-
 // Plugins
-var gulp = require('gulp'),
-    runSequence = require('run-sequence');
+var gulp = require("gulp"),
+  runSequence = require("run-sequence");
 
-
-gulp.task('default', function(cb) {
+gulp.task("default", function(cb) {
   runSequence(
-    'swig',
-    'html',
-    'scss',
-    'js',
+    //'swig',
+    //'html',
+    "scss",
+    "js",
     cb
   );
 });

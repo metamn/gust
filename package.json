@@ -50,7 +50,9 @@
     "imagemin-pngquant": "^4.2.0",
     "inflection": "^1.7.1",
     "kss": "^2.1.0",
+    "mailparser": "^2.7.7",
     "mkdirp": "^0.5.1",
+    "node-mbox": "^1.0.0",
     "run-sequence": "^1.1.0",
     "webpack-stream": "^3.1.0",
     "yargs": "^3.9.0"

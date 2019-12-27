@@ -1,6 +1,6 @@
 {
   "url": "/",
-  "url": "http://metamn.io/gust/",
+  "urlx": "http://metamn.io/gust/",
   "title": "Gust",
   "images": "assets/images/",
   "scripts": "assets/scripts/",
@@ -8,8 +8,8 @@
   "javascripts": {
     "header": [
       {
-       "file": "https://use.typekit.net/syb1owt.js",
-       "type": "external"
+        "file": "https://use.typekit.net/syb1owt.js",
+        "type": "external"
       },
       {
         "file": "vendors.js"
