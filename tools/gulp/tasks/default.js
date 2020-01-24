@@ -15,12 +15,6 @@ var gulp = require("gulp"),
   runSequence = require("run-sequence");
 
 gulp.task("default", function(cb) {
-  runSequence(
-    //'swig',
-    //'html',
-    "scss",
-    "js",
-    cb
-  );
+  runSequence("swig", "html", "scss", "js", cb);
 });
 console.timeEnd("Loading plugins"); //end measuring
