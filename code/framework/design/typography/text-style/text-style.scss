@@ -10,7 +10,7 @@
 
 // The width of a text block
 
-$text-block-width: 25em; 
+$text-block-width: 27.5em; 
 
 
 
@@ -34,7 +34,7 @@ $text-block-width: 25em;
   @if ($variant == 'body-text') {
     @include p;
     
-    max-width: 25em;
+    max-width: 27.5em;
     
     
     @include tablet {
@@ -50,7 +50,7 @@ $text-block-width: 25em;
     }
     
     @include desktop {
-      @include scale(large-3);
+      @include scale(large-2);
       
       
     }
@@ -71,7 +71,7 @@ $text-block-width: 25em;
   // - Title
   @if ($variant == 'title') {
     @include font(nimbus-sans-bold);
-    @include scale(large-4);
+    @include scale(large-3);
     @include word-wrap;
     
     line-height: 1.1;
@@ -128,7 +128,7 @@ $text-block-width: 25em;
 .text-style--body-text {
   @include p;
   
-  max-width: 25em;
+  max-width: 27.5em;
   
   
   @include tablet {
@@ -144,7 +144,7 @@ $text-block-width: 25em;
   }
   
   @include desktop {
-    @include scale(large-3);
+    @include scale(large-2);
     
     
   }
@@ -161,7 +161,7 @@ $text-block-width: 25em;
 
 .text-style--title {
   @include font(nimbus-sans-bold);
-  @include scale(large-4);
+  @include scale(large-3);
   @include word-wrap;
   
   line-height: 1.1;

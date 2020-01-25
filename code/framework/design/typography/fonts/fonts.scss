@@ -21,7 +21,7 @@
 // - The logo typeface, sans-serif
 // - character set: English, with OpenType Features
 // - served from local
-// - styles and weights: 
+// - styles and weights: Regular, 
 
 
 
@@ -91,6 +91,12 @@
     font-style: normal;
   }
   
+  @if ($variant == 'silkscreen-regular') {
+    font-family: 'silkscreen', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 }
 
 
@@ -123,6 +129,12 @@
 .nimbus-sans-black {
   font-family: 'nimbus-sans', sans-serif;
   font-weight: 900;
+  font-style: normal;
+}
+
+.silkscreen-regular {
+  font-family: 'silkscreen', sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 

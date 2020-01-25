@@ -37,7 +37,7 @@
       "properties": [
         {
           "name": "max-width",
-          "value": "25em"
+          "value": "27.5em"
         }
       ],
       "responsive": [
@@ -64,7 +64,7 @@
           "mixins": [
             {
               "name": "scale",
-              "value": "large-3"
+              "value": "large-2"
             }
           ]
         }
@@ -96,7 +96,7 @@
         },
         {
           "name": "scale",
-          "value": "large-4"
+          "value": "large-3"
         },
         {
           "name": "word-wrap",

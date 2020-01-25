@@ -59,6 +59,13 @@
           "url": "slkscr.ttf",
           "format": "truetype"
         }
+      ],
+      "styles": [
+        {
+          "name": "Regular",
+          "weight": "400",
+          "style": "normal"
+        }
       ]
     }
   ]

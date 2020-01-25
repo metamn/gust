@@ -118,23 +118,4 @@
   Everything which helped us to progress either got weakened &mdash; art &mdash; or got transformed &mdash; science.
 </p>
 
-<p>
-  Culture become polarized.
-  There is the old one, from East which grows; and there is the new one, from West, based on Technology which is on losing by being trapped by profit.
-</p>
-
-<p>
-  The new generation pays attention only to themselves;
-  change is brought paradoxically by the good old people &mdash; Brexit, Trump &mdash; and it's not really a change, it's just a scream.
-</p>
-
-<p>
-  No wonder there were no new values born.
-</p>
-
-<p>
-  The only progress is in <a class="link" title="Neosensory" href="http://neosensory.com/">new senses</a>,
-  towards the technological metasystem transition.
-</p>
-
 {% endblock %}
